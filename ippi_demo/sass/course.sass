@@ -1,0 +1,442 @@
+@import compass/reset
+@import compass/css3/box-sizing
+@import compass/css3/border-radius
+@import compass/css3
+$all-width: 100%
+$lesson-color: #5a5a5a
+h1, h2, p, a
+	font-family: "HelveticaNeue", "Helvetica", "Heiti TC","儷黑 Pro" , "Arial",sans-serif
+	font-style: normal
+	font-weight: 300
+
+body
+	position: relative
+	background-color: #ececec
+	background: #d5d5d5 /* Old browsers */
+	background: -moz-linear-gradient(left, #d3d3d3, #fbfbfb 30%, #fbfbfb 70%, #d3d3d3 100%) /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#d3d3d3), color-stop(30%,#fbfbfb), color-stop(70%,#fbfbfb), color-stop(100%,#d3d3d3)) /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #d3d3d3, #fbfbfb 30%, #fbfbfb 70%, #d3d3d3 100%) /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #d3d3d3, #fbfbfb 30%, #fbfbfb 70%, #d3d3d3 100%) /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #d3d3d3, #fbfbfb 30%, #fbfbfb 70%, #d3d3d3 100%) /* IE10+ */
+	background: linear-gradient(to right, #d3d3d3, #fbfbfb 30%, #fbfbfb 70%, #d3d3d3 100%) /* W3C */
+section
+	clear: both
+	height: auto
+.container
+	max-width: 1160px
+	clear: both
+	margin: 0 auto
+	height: auto
+.container-min
+	max-width: 680px
+	clear: both
+	margin: 0 auto
+	height: auto
+h3
+	text-align: center
+	font-size: 1.5em
+	padding-top: 60px
+	padding-bottom: 40px
+a
+	text-decoration: none
+i
+	width: 24px
+	margin-right: 4px
+	text-align: center
+// -------------
+// Hero image
+// -------------
+
+.hero
+	+box-sizing(border-box)
+	+box-shadow(0px 3px 10px rgba(0, 0, 0, 0.7))
+	width: 100%
+	min-width: 100%
+	height: 628px
+	min-height: 100%
+	padding-top: 20px
+	box-sizing
+	background-image: url(../images/ippi_cover.jpg)
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: cover
+	background-color: rgba(0,0,0,1)
+	background-attachment: fixed
+	margin: 0 0 -4em 0
+.hero-logo
+	float: left
+	width: 120px
+	height: 114px
+	margin-left: 10px
+	background-image: url(../images/ippi_taipei.jpg)
+	background-repeat: no-repeat
+	background-position: top
+	background-size: contain
+	overflow: hidden
+.hero-logo-title
+	width: 100%
+	height: 1px
+	text-indent: 9999px
+	overflow: hidden
+.hero-title
+	color: white
+	float: left
+	margin: 0 0 0 20px
+	font-size: 1em
+	line-height: 1.4em
+	letter-spacing: 0.2px
+	vertical-align: baseline
+	+text-shadow(2px 2px 5px rgba(0, 0, 0, 0.2))
+.social
+	float: right
+	width: auto
+	margin-right: 10px
+	color: rgba(255, 255, 255, 0.5)
+	i
+		width: 40px
+		display: inline-block
+		&:hover
+			color: rgba(255, 255, 255, 0.9)
+
+// -------------
+// Hero image
+// -------------
+
+
+
+
+// -------------
+// Navbar
+// -------------
+nav
+	width: 100%
+	height: 64px
+	background-color: rgba(1, 40, 81, 0.7)
+	border-bottom: 2px solid rgba(0,0,0,1)
+	ul
+		float: right
+	li
+		padding: 1.5em 1.2em
+		margin: auto 0 auto -4px
+		display: inline-block
+		border-bottom: 2px solid rgba(220,10,23,1)
+		+transition-duration(0.4s)
+
+		&:hover
+			border-bottom: 2px solid rgba(254,206,47,1)
+			background-color: #09134a
+			+transition-duration(0s)
+			+transition-timing-function(ease-in)
+
+	a
+		color: white
+		height: 100%
+.nav-program
+	float: left
+	color: white
+	font-size: 1.6em
+	margin-left: 10px
+	display: block
+	padding: 0.75em 0
+	font-family: "Times New Roman", "Georgia", Times, serif
+	font-style: italic
+
+
+
+
+// -------------
+// vision
+// -------------
+
+.vision
+	max-width: 680px
+	line-height: 1.6
+	p
+		text-indent: 32px
+		margin-bottom: 1em
+	ol
+		padding-left: 20px
+	ol li
+		list-style-type: decimal
+
+
+
+// -------------
+// vision
+// -------------
+// -------------
+// leader
+// -------------
+
+.leader
+	color: white
+	position: relative
+	background-image: url(../images/ippi_cover.jpg)
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: cover
+	background-color: rgba(0,0,0,1)
+	background-attachment: fixed
+	// background-color: rgba(3, 46, 91, 1)
+	.leader-filter
+		display: block
+		padding: 4em 0
+		width: 100%
+		height: 100%
+		background-color: rgba(3, 46, 91, 0.8)
+.leader-img
+	float: left
+	width: 142px
+	margin: 8px 20px 0 0
+.leader-title
+	font-size: 1.2em
+.host
+	font-size: 1.6em
+
+
+// -------------
+// leader
+// -------------
+
+// -------------
+// team
+// -------------
+
+.team-speaker
+	float: left
+	height: 220px
+	width: 270px
+	margin: 0 10px
+	// border: 1px solid
+	+box-sizing(border-box)
+	margin-bottom: 16px
+	position: relative
+	h4, ul
+		+opacity(0)
+		position: absolute
+		bottom: 25px
+
+	&:hover
+		+transform(scale(1.08))
+		+transition(0.1s)
+		+box-shadow(rgba(200, 200, 200, 0.8) 0px 8px 4px -4px)
+
+		h4
+			+opacity(1)
+			top: 16px
+			padding: 8px
+			font-size: 1.2em
+			+transition(0.1s)
+		ul
+			+opacity(1)
+			bottom: 0px
+			padding: 8px
+			width: 100%
+			+box-sizing(border-box)
+			font-size: 14px
+			color: rgba(250,  250, 250, 0.9)
+			background-color: rgba(7, 36, 76, 0.3)
+			+transition(0.1s)
+	&:last-child
+		margin-bottom: 6em
+		// background-color: green
+.profile-1
+	background-image: url(../images/profile/lee_cut.jpg)
+	background-size: cover
+	background-position: top center
+.profile-2
+	background-image: url(../images/profile/lin_cut.jpg)
+	background-size: cover
+	background-position: top center
+.profile-3
+	background-image: url(../images/profile/lee_cut2.jpg)
+	background-size: cover
+	background-position: center center
+.profile-4
+	background-image: url(../images/profile/lin_cut.jpg)
+	background-size: cover
+	background-position: center center
+.profile-5
+	background-image: url(../images/profile/lin_cut.jpg)
+	background-size: cover
+	background-position: center center
+.profile-6
+	background-image: url(../images/profile/shih_cut.jpg)
+	background-size: cover
+	background-position: center center
+.profile-7
+	background-image: url(../images/profile/lin_cut.jpg)
+	background-size: cover
+	background-position: center center
+.profile-8
+	background-image: url(../images/profile/lee_cut2.jpg)
+	background-size: cover
+	background-position: center center
+
+		
+
+
+
+
+
+// -------------
+// team
+// -------------
+
+
+// -------------
+// program
+// -------------
+
+.h2-program
+	clear: both
+	font-size: 2em
+	color: white
+	padding: 1em 0
+	text-align: center
+	background-color: rgba(3, 46, 91, 1)
+.lesson
+	max-width: 620px
+	padding-bottom: 4em
+	clear: both
+.lesson-series
+	font-family: "Times New Roman", "Georgia", Times, serif
+	font-style: italic
+	font-size: 1.6em
+	border-bottom: 1px solid rgba(3, 46, 91, 1)
+	margin-bottom: 20px
+	clear: both
+
+.lesson-name
+	font-family: "Times New Roman", "Georgia", Times, "Heiti TC", serif
+
+	font-size: 1.2em
+	margin-bottom: 16px
+	clear: both
+.lesson-content
+	font-size: 1em
+	margin-bottom: 24px
+	line-height: 1.4
+	color: $lesson-color
+.lesson-date
+	margin-bottom: 8px
+	color: $lesson-color
+.lesson-price
+	color: $lesson-color
+
+.download
+	margin: 1em 0 4em 0
+	text-align: center
+	+border-radius(3px)
+	float: right
+	width: 88px
+	padding: 8px 18px
+	display: block
+	border: 1px solid #09467f
+	background-color: #094884
+	color: white
+	+box-shadow(rgba(255, 255, 255, 0.3) 0px 2px 2px inset)
+	&:hover
+		transition: 0.1s
+		+box-shadow(rgba(255, 255, 255, 0.2) 0px -3px 3px inset)
+		+box-shadow(rgba(200, 200, 200, 0.8) 0px 8px 4px -4px)
+
+
+
+// -------------
+// program
+// -------------
+
+// -------------
+// register
+// -------------
+
+
+.register
+	line-height: 1.4
+	color: white
+	position: relative
+	background-image: url(../images/ippi_course.jpg)
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: cover
+	background-color: rgba(0,0,0,1)
+	background-attachment: fixed
+	clear: both
+	.register-filter
+		display: block
+		padding: 0em 0 4em 0
+		width: 100%
+		height: 100%
+		background-color: rgba(20, 20, 20, 0.4)
+
+
+// -------------
+// register
+// -------------
+
+
+
+// -------------
+// footer
+// -------------
+
+
+footer
+	color: white
+	background-color: rgba(3, 46, 91, 1)
+	height: 5em
+	padding-top: 13em
+	position: relative
+.footer-logo
+	float: right
+	width: 120px
+	height: 76px
+	margin: -10px 0 0 0
+	background-image: url(../images/ippi_taipei.jpg)
+	background-repeat: no-repeat
+	background-position: top
+	background-size: cover
+	overflow: hidden
+.footer-logo-title
+	width: 100%
+	height: 1px
+	text-indent: 9999px
+	overflow: hidden
+.footer-contact
+	float: right
+	width: 320px
+	height: 76px
+	margin: 0 0 0 20px
+.sticky
+	position: absolute
+	bottom: 0
+	height: 5px
+	width: 100%
+	z-index: 20
+.germany-black, .germany-yellow, .germany-red
+	float: left
+	// position: fixed
+	width: $all-width/3
+	height: 3px
+.germany-black
+	background-color: rgba(0, 0, 0, 0.7)
+	border-top: 2px solid rgba(60, 60, 60, 1)
+.germany-red
+	background-color: #8f050e
+	border-top: 2px solid rgba(220,10,23,1)
+.germany-yellow
+	background-color: #9e8a1b
+	border-top: 2px solid rgba(254,206,47,1)
+
+#map
+	display: none
+	position: absolute
+	z-index: 10
+	left: 0
+	top: 0
+	width: 100%
+	height: 100%
+// -------------
+// footer
+// -------------
