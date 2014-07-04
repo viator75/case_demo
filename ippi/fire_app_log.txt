@@ -2657,3 +2657,16 @@ Load paths:
 2014-07-04 16:22:00 identical stylesheets/cover.css 
 2014-07-04 16:22:01 identical stylesheets/cover.css 
 2014-07-04 16:22:01 identical stylesheets/cover.css 
+2014-07-04 17:30:26 overwrite stylesheets/course.css 
+2014-07-04 17:30:55 overwrite stylesheets/course.css 
+2014-07-04 17:31:44 overwrite stylesheets/course.css 
+2014-07-04 17:31:56 overwrite stylesheets/course.css 
+2014-07-04 17:32:01 overwrite stylesheets/course.css 
+2014-07-04 17:32:26 overwrite stylesheets/course.css 
+2014-07-04 17:32:30 overwrite stylesheets/course.css 
+2014-07-04 17:32:46 overwrite stylesheets/course.css 
+2014-07-04 17:33:19 overwrite stylesheets/course.css 
+2014-07-04 17:33:33 identical stylesheets/course.css 
+2014-07-04 17:33:58 overwrite stylesheets/course.css 
+2014-07-04 17:42:33 overwrite stylesheets/course.css 
+2014-07-04 17:43:20 overwrite stylesheets/course.css 

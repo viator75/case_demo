@@ -311,36 +311,52 @@ nav a {
   float: left;
   height: 220px;
   width: 270px;
-  margin: 0 10px;
+  margin: 0 10px 3em 10px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-bottom: 16px;
   position: relative;
 }
-/* line 214, ../sass/course.sass */
-.team-speaker h4, .team-speaker ul {
+/* line 213, ../sass/course.sass */
+.team-speaker h4 {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  top: 16px;
+  padding: 8px;
+  font-size: 1.2em;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+}
+/* line 219, ../sass/course.sass */
+.team-speaker ul {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   position: absolute;
   bottom: 25px;
 }
-/* line 219, ../sass/course.sass */
+/* line 223, ../sass/course.sass */
+.team-speaker ul li {
+  line-height: 1.4;
+  font-size: 12px;
+}
+/* line 227, ../sass/course.sass */
 .team-speaker:hover {
-  -webkit-transform: scale(1.08);
-  -moz-transform: scale(1.08);
-  -ms-transform: scale(1.08);
-  -o-transform: scale(1.08);
-  transform: scale(1.08);
-  -webkit-transition: 0.1s;
-  -moz-transition: 0.1s;
-  -o-transition: 0.1s;
-  transition: 0.1s;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
   -webkit-box-shadow: rgba(200, 200, 200, 0.8) 0px 8px 4px -4px;
   -moz-box-shadow: rgba(200, 200, 200, 0.8) 0px 8px 4px -4px;
   box-shadow: rgba(200, 200, 200, 0.8) 0px 8px 4px -4px;
 }
-/* line 224, ../sass/course.sass */
+/* line 232, ../sass/course.sass */
 .team-speaker:hover h4 {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
@@ -352,7 +368,7 @@ nav a {
   -o-transition: 0.1s;
   transition: 0.1s;
 }
-/* line 230, ../sass/course.sass */
+/* line 238, ../sass/course.sass */
 .team-speaker:hover ul {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
@@ -362,7 +378,7 @@ nav a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 12px;
   color: rgba(250, 250, 250, 0.9);
   background-color: rgba(7, 36, 76, 0.3);
   -webkit-transition: 0.1s;
@@ -370,68 +386,68 @@ nav a {
   -o-transition: 0.1s;
   transition: 0.1s;
 }
-/* line 240, ../sass/course.sass */
+/* line 248, ../sass/course.sass */
 .team-speaker:last-child {
   margin-bottom: 6em;
 }
 
-/* line 243, ../sass/course.sass */
+/* line 251, ../sass/course.sass */
 .profile-1 {
   background-image: url(../images/profile/lee_cut.jpg);
   background-size: cover;
   background-position: top center;
 }
 
-/* line 247, ../sass/course.sass */
+/* line 255, ../sass/course.sass */
 .profile-2 {
   background-image: url(../images/profile/lin_cut.jpg);
   background-size: cover;
   background-position: top center;
 }
 
-/* line 251, ../sass/course.sass */
+/* line 259, ../sass/course.sass */
 .profile-3 {
   background-image: url(../images/profile/lee_cut2.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-/* line 255, ../sass/course.sass */
+/* line 263, ../sass/course.sass */
 .profile-4 {
   background-image: url(../images/profile/lin_cut.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-/* line 259, ../sass/course.sass */
+/* line 267, ../sass/course.sass */
 .profile-5 {
   background-image: url(../images/profile/lin_cut.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-/* line 263, ../sass/course.sass */
+/* line 271, ../sass/course.sass */
 .profile-6 {
   background-image: url(../images/profile/shih_cut.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-/* line 267, ../sass/course.sass */
+/* line 275, ../sass/course.sass */
 .profile-7 {
   background-image: url(../images/profile/lin_cut.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-/* line 271, ../sass/course.sass */
+/* line 279, ../sass/course.sass */
 .profile-8 {
   background-image: url(../images/profile/lee_cut2.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-/* line 291, ../sass/course.sass */
+/* line 299, ../sass/course.sass */
 .h2-program {
   clear: both;
   font-size: 2em;
@@ -441,14 +457,14 @@ nav a {
   background-color: #032e5b;
 }
 
-/* line 298, ../sass/course.sass */
+/* line 306, ../sass/course.sass */
 .lesson {
   max-width: 620px;
   padding-bottom: 4em;
   clear: both;
 }
 
-/* line 302, ../sass/course.sass */
+/* line 310, ../sass/course.sass */
 .lesson-series {
   font-family: "Times New Roman", "Georgia", Times, serif;
   font-style: italic;
@@ -458,7 +474,7 @@ nav a {
   clear: both;
 }
 
-/* line 310, ../sass/course.sass */
+/* line 318, ../sass/course.sass */
 .lesson-name {
   font-family: "Times New Roman", "Georgia", Times, "Heiti TC", serif;
   font-size: 1.2em;
@@ -466,26 +482,26 @@ nav a {
   clear: both;
 }
 
-/* line 316, ../sass/course.sass */
+/* line 324, ../sass/course.sass */
 .lesson-content {
   font-size: 1em;
   margin-bottom: 24px;
   line-height: 1.4;
-  color: #5a5a5a;
+  color: #3e3e3e;
 }
 
-/* line 321, ../sass/course.sass */
+/* line 329, ../sass/course.sass */
 .lesson-date {
   margin-bottom: 8px;
-  color: #5a5a5a;
+  color: #3e3e3e;
 }
 
-/* line 324, ../sass/course.sass */
+/* line 332, ../sass/course.sass */
 .lesson-price {
-  color: #5a5a5a;
+  color: #3e3e3e;
 }
 
-/* line 327, ../sass/course.sass */
+/* line 335, ../sass/course.sass */
 .download {
   margin: 1em 0 4em 0;
   text-align: center;
@@ -505,18 +521,20 @@ nav a {
   -moz-box-shadow: rgba(255, 255, 255, 0.3) 0px 2px 2px inset;
   box-shadow: rgba(255, 255, 255, 0.3) 0px 2px 2px inset;
 }
-/* line 339, ../sass/course.sass */
+/* line 347, ../sass/course.sass */
 .download:hover {
   transition: 0.1s;
   -webkit-box-shadow: rgba(255, 255, 255, 0.2) 0px -3px 3px inset;
   -moz-box-shadow: rgba(255, 255, 255, 0.2) 0px -3px 3px inset;
   box-shadow: rgba(255, 255, 255, 0.2) 0px -3px 3px inset;
-  -webkit-box-shadow: rgba(200, 200, 200, 0.8) 0px 8px 4px -4px;
-  -moz-box-shadow: rgba(200, 200, 200, 0.8) 0px 8px 4px -4px;
-  box-shadow: rgba(200, 200, 200, 0.8) 0px 8px 4px -4px;
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01);
+  transform: scale(1.01);
 }
 
-/* line 355, ../sass/course.sass */
+/* line 365, ../sass/course.sass */
 .register {
   line-height: 1.4;
   color: white;
@@ -529,7 +547,7 @@ nav a {
   background-attachment: fixed;
   clear: both;
 }
-/* line 366, ../sass/course.sass */
+/* line 376, ../sass/course.sass */
 .register .register-filter {
   display: block;
   padding: 0em 0 4em 0;
@@ -538,7 +556,7 @@ nav a {
   background-color: rgba(20, 20, 20, 0.4);
 }
 
-/* line 385, ../sass/course.sass */
+/* line 395, ../sass/course.sass */
 footer {
   color: white;
   background-color: #032e5b;
@@ -547,7 +565,7 @@ footer {
   position: relative;
 }
 
-/* line 391, ../sass/course.sass */
+/* line 401, ../sass/course.sass */
 .footer-logo {
   float: right;
   width: 120px;
@@ -560,7 +578,7 @@ footer {
   overflow: hidden;
 }
 
-/* line 401, ../sass/course.sass */
+/* line 411, ../sass/course.sass */
 .footer-logo-title {
   width: 100%;
   height: 1px;
@@ -568,7 +586,7 @@ footer {
   overflow: hidden;
 }
 
-/* line 406, ../sass/course.sass */
+/* line 416, ../sass/course.sass */
 .footer-contact {
   float: right;
   width: 320px;
@@ -576,7 +594,7 @@ footer {
   margin: 0 0 0 20px;
 }
 
-/* line 411, ../sass/course.sass */
+/* line 421, ../sass/course.sass */
 .sticky {
   position: absolute;
   bottom: 0;
@@ -585,32 +603,32 @@ footer {
   z-index: 20;
 }
 
-/* line 417, ../sass/course.sass */
+/* line 427, ../sass/course.sass */
 .germany-black, .germany-yellow, .germany-red {
   float: left;
   width: 33.33333%;
   height: 3px;
 }
 
-/* line 422, ../sass/course.sass */
+/* line 432, ../sass/course.sass */
 .germany-black {
   background-color: rgba(0, 0, 0, 0.7);
   border-top: 2px solid #3c3c3c;
 }
 
-/* line 425, ../sass/course.sass */
+/* line 435, ../sass/course.sass */
 .germany-red {
   background-color: #8f050e;
   border-top: 2px solid #dc0a17;
 }
 
-/* line 428, ../sass/course.sass */
+/* line 438, ../sass/course.sass */
 .germany-yellow {
   background-color: #9e8a1b;
   border-top: 2px solid #fece2f;
 }
 
-/* line 432, ../sass/course.sass */
+/* line 442, ../sass/course.sass */
 #map {
   display: none;
   position: absolute;
