@@ -52,8 +52,8 @@ i
 	+box-shadow(0px 3px 10px rgba(0, 0, 0, 0.7))
 	width: 100%
 	min-width: 100%
-	height: 628px
-	min-height: 100%
+	height: 680px
+	// height: 100%
 	padding-top: 20px
 	box-sizing
 	background-image: url(../images/ippi_cover.jpg)
@@ -111,7 +111,7 @@ i
 nav
 	width: 100%
 	height: 64px
-	background-color: rgba(1, 40, 81, 0.7)
+	background-color: rgba(1, 40, 81, 0.2)
 	border-bottom: 2px solid rgba(0,0,0,1)
 	ul
 		float: right
@@ -120,11 +120,12 @@ nav
 		margin: auto 0 auto -4px
 		display: inline-block
 		border-bottom: 2px solid rgba(220,10,23,1)
+		font-size: 1em
 		+transition-duration(0.4s)
 
 		&:hover
 			border-bottom: 2px solid rgba(254,206,47,1)
-			background-color: #09134a
+			background-color: rgba(1, 40, 81, 0.7)
 			+transition-duration(0s)
 			+transition-timing-function(ease-in)
 
@@ -183,11 +184,11 @@ nav
 		padding: 4em 0
 		width: 100%
 		height: 100%
-		background-color: rgba(3, 46, 91, 0.8)
+		background-color: rgba(50, 50, 50, 0.8)
 .leader-img
 	float: left
 	width: 142px
-	margin: 8px 20px 0 0
+	margin: 8px 32px 0 0
 .leader-title
 	font-size: 1.2em
 .host
@@ -213,13 +214,14 @@ nav
 	h4
 		+opacity(0.8)
 		top: 16px
-		padding: 8px
+		padding: 16px 8px
 		font-size: 1.2em
 		+transition(0.1s)
 	ul
 		+opacity(0)
 		position: absolute
 		bottom: 25px
+		width: 100%
 		li
 			line-height: 1.4
 			font-size: 12px
@@ -232,18 +234,17 @@ nav
 		h4
 			+opacity(1)
 			top: 16px
-			padding: 8px
+			padding: 16px 8px
 			font-size: 1.2em
 			+transition(0.1s)
 		ul
 			+opacity(1)
 			bottom: 0px
 			padding: 8px
-			width: 100%
 			+box-sizing(border-box)
 			font-size: 12px
 			color: rgba(250,  250, 250, 0.9)
-			background-color: rgba(7, 36, 76, 0.3)
+			background-color: rgba(36, 36, 36, 0.5)
 			+transition(0.1s)
 	&:last-child
 		margin-bottom: 6em
@@ -300,9 +301,10 @@ nav
 	clear: both
 	font-size: 2em
 	color: white
-	padding: 1em 0
+	padding: 2em 0
+	margin: 1em 0
 	text-align: center
-	background-color: rgba(3, 46, 91, 1)
+	background-color: rgba(3, 46, 91, 0.9)
 .lesson
 	max-width: 620px
 	padding-bottom: 4em
@@ -312,7 +314,7 @@ nav
 	font-style: italic
 	font-size: 1.6em
 	border-bottom: 1px solid rgba(3, 46, 91, 1)
-	margin-bottom: 20px
+	margin-bottom: 1em
 	clear: both
 
 .lesson-name
