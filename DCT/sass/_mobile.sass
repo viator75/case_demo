@@ -1,0 +1,31 @@
+/* -------------------------------------------------------------------------*/
+/* Mobile*/
+@include at-breakpoint($mobile)
+	.container
+		+container
+		// +susy-grid-background
+		padding: $mobile-padding
+		padding-bottom: 0
+
+	.show
+		display: none
+	.m
+		display: block
+	.navigation
+		padding: 0 $mobile-padding
+	.slider
+		height: 240px
+
+	.feature, .contact-info
+		// +span-columns(3)
+		// +isolate(2)
+		+isolate-grid(4)
+		margin-top: 2em
+		margin-bottom: 2em
+	footer
+		padding: 0.5em $mobile-padding
+	.footer-en
+		+isolate-grid(4)
+	.footer-zh
+		text-align: left
+		+isolate-grid(4)
