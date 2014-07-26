@@ -35,7 +35,7 @@
 
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 		<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
-		<link href="../stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="../stylesheets/jquery.remodal.css">
 		<script src="../js/jquery.remodal.js"></script>
 </head>
@@ -66,271 +66,148 @@
 		<![endif]-->
 
 		<!-- Add your site or application content here -->
-		<div>
-	<h1>線上預約</h1>
-
-	<script type="text/javascript">var submitted=false;</script>
-<!-- 	<form action="https://docs.google.com/forms/d/1H7W-MYCKn9p2QLIBcFZIprqKb4IsGBn7tGbA3yPOAE8/viewform?usp=s
-end_form#start=embed " method="post"
-	target="hidden_iframe" onsubmit="submitted=true;"> -->
-
-<!-- <div class="main-form">
-	<form action="https://docs.google.com/forms/d/1H7W-MYCKn9p2QLIBcFZIprqKb4IsGBn7tGbA3yPOAE8/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
-		<ol role="list" class="ss-question-list" style="padding-left: 0">
-			<div class="ss-form-question errorbox-good" role="listitem">
-				<div dir="ltr" class="ss-item ss-item-required ss-date">
-					<div class="ss-form-entry">
-						<label class="ss-q-item-label" for="entry_378295693"><div class="ss-q-title">請問您的婚期是?
-						<label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
-						<span class="ss-required-asterisk">*</span></div>
-						<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-						<input type="date" name="entry.378295693" value="" class="ss-q-date" dir="auto" id="entry_378295693" aria-label="請問您的婚期是?  " aria-required="true" required="">
-						<div class="required-message">這是必填問題</div>
+		<div class="main base">
+	<div class="form-box">
+		<div class="ribbon"><h2>線上預約</h2></div>
+		<form action="https://docs.google.com/forms/d/1H7W-MYCKn9p2QLIBcFZIprqKb4IsGBn7tGbA3yPOAE8/formResponse" method="post" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;">
+			<ol role="list" class="ss-question-list" style="padding-left: 0">
+				<div class="ss-form-question errorbox-good" role="listitem">
+					<div dir="ltr" class="ss-item ss-item-required ss-date">
+						<div class="ss-form-entry">
+							<label class="ss-q-item-label" for="entry_378295693">
+								<div class="ss-q-title">請問您的婚期是?
+									<label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
+									<span class="ss-required-asterisk">*</span>
+								</div>
+								<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+							</label>
+							<input type="date" name="entry.378295693" value="" class="ss-q-date" dir="auto" id="entry_378295693" aria-label="請問您的婚期是?  " aria-required="true" required="">
+						</div>
 					</div>
 				</div>
-			</div>
-
-			<div class="ss-form-question errorbox-good" role="listitem">
-				<div dir="ltr" class="ss-item ss-item-required ss-select">
-					<div class="ss-form-entry">
-						<label class="ss-q-item-label" for="entry_360143194">
-							<div class="ss-q-title">預計的戶外證婚賓客人數為?
-							<label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
-							<span class="ss-required-asterisk">*</span></div>
-							<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
-						</label>
-
-						<select name="entry.360143194" id="entry_360143194" aria-label="預計的戶外證婚賓客人數為?  " aria-required="true" required=""><option value=""></option>
-						<option value="0~50">0~50</option> <option value="50~100">50~100</option>
-						<option value="100以上">100以上</option> <option value="未定">未定</option>
-						</select>
-
-						<div class="required-message">這是必填問題</div>
+				<br>	
+				<div class="ss-form-question errorbox-good" role="listitem">
+					<div dir="ltr" class="ss-item ss-item-required ss-select">
+						<div class="ss-form-entry">
+							<label class="ss-q-item-label" for="entry_360143194">
+								<div class="ss-q-title">預計的戶外證婚賓客人數為?
+									<label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
+									<span class="ss-required-asterisk">*</span></div>
+								<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+							</label>
+							<select name="entry.360143194" id="entry_360143194" aria-label="預計的戶外證婚賓客人數為?  " aria-required="true" required="">
+								<option value="">請選擇預估人數</option>
+								<option value="0~50">0~50</option>
+								<option value="50~100">50~100</option>
+								<option value="100以上">100以上</option>
+								<option value="未定">未定</option>
+							</select>
+						</div>
 					</div>
 				</div>
-			</div>
-
-			<div class="ss-form-question errorbox-good" role="listitem">
-				<div dir="ltr" class="ss-item ss-item-required ss-checkbox">
-					<div class="ss-form-entry">
-						<label class="ss-q-item-label" for="entry_564057038">
-							<div class="ss-q-title">當天會舉行其他活動嗎?
-							<label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
-							<span class="ss-required-asterisk">*</span></div>
+				<br>	
+				<div class="ss-form-question errorbox-good" role="listitem">
+					<div dir="ltr" class="ss-item ss-item-required ss-checkbox">
+						<div class="ss-form-entry">
+							<label class="ss-q-item-label" for="entry_564057038">
+								<div class="ss-q-title">當天會舉行其他活動嗎?
+									<label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
+									<span class="ss-required-asterisk">*</span>
+								</div>
 							<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
-						</label>
-						<ul class="ss-choices ss-choices-required" role="group" aria-label="當天會舉行其他活動嗎?  ">
-							<li class="ss-choice-item"><label>
-								<span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1324287194" value="迎娶" id="group_1324287194_1" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
+							</label>
+							<ul class="ss-choices ss-choices-required" role="group" aria-label="當天會舉行其他活動嗎?  ">
+								<li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1324287194" value="迎娶" id="group_1324287194_1" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
 								<span class="ss-choice-label">迎娶</span>
-								</label>
-							</li>
-							<li class="ss-choice-item">
-								<label>
-								<span class="ss-choice-item-control goog-inline-block">
-								<input type="checkbox" name="entry.1324287194" value="室內宴客" id="group_1324287194_2" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
+								</label></li>
+								<li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1324287194" value="室內宴客" id="group_1324287194_2" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
 								<span class="ss-choice-label">室內宴客</span>
-								</label>
-							</li>
-							<li class="ss-choice-item">
-								<label>
-								<span class="ss-choice-item-control goog-inline-block">
-								<input type="checkbox" name="entry.1324287194" value="戶外宴客" id="group_1324287194_3" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
+								</label></li>
+								<li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1324287194" value="戶外宴客" id="group_1324287194_3" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
 								<span class="ss-choice-label">戶外宴客</span>
-								</label>
-							</li>
-							<li class="ss-choice-item">
-								<label>
-								<span class="ss-choice-item-control goog-inline-block">
-								<input type="checkbox" name="entry.1324287194" value="After-Party" id="group_1324287194_4" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
+								</label></li>
+								<li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1324287194" value="After-Party" id="group_1324287194_4" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
 								<span class="ss-choice-label">After-Party</span>
-								</label>
-							</li>
-							<li class="ss-choice-item">
-								<label>
-								<span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1324287194" value="其他" id="group_1324287194_5" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
+								</label></li>
+								<li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1324287194" value="其他" id="group_1324287194_5" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
 								<span class="ss-choice-label">其他</span>
-								</label>
-							</li>
-							<li class="ss-choice-item">
-								<label>
-								<span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1324287194" value="無" id="group_1324287194_6" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
+								</label></li>
+								<li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1324287194" value="無" id="group_1324287194_6" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
 								<span class="ss-choice-label">無</span>
-								</label>
-							</li>
-							<li class="ss-choice-item">
-								<label>
-								<span class="ss-choice-item-control goog-inline-block">
-								<input type="checkbox" name="entry.1324287194" value="未定" id="group_1324287194_7" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
+								</label></li>
+								<li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1324287194" value="未定" id="group_1324287194_7" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
 								<span class="ss-choice-label">未定</span>
-								</label>
-							</li>
-						</ul>
-						<div class="error-message" id="564057038_errorMessage"></div>
-						<div class="required-message">這是必填問題</div>
+								</label></li>
+							</ul>
+							<div class="error-message" id="564057038_errorMessage"></div>
+						</div>
 					</div>
 				</div>
-			</div>
-
-			<div class="ss-form-question errorbox-good" role="listitem">
-				<div dir="ltr" class="ss-item ss-item-required ss-select"><div class="ss-form-entry">
-					<label class="ss-q-item-label" for="entry_1518578278"><div class="ss-q-title">您希望在哪個地區舉辦戶外證婚?
-					<label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
-					<span class="ss-required-asterisk">*</span></div>
-					<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-					<select name="entry.1518578278" id="entry_1518578278" aria-label="您希望在哪個地區舉辦戶外證婚?  " aria-required="true" required=""><option value=""></option>
-					<option value="北部">北部</option> <option value="中部">中部</option> <option value="南部">南部</option> <option value="國外">國外</option> <option value="未定">未定</option></select>
-					<div class="required-message">這是必填問題</div>
+				<br>
+				<div class="ss-form-question errorbox-good" role="listitem">
+					<div dir="ltr" class="ss-item ss-item-required ss-select">
+						<div class="ss-form-entry">
+							<label class="ss-q-item-label" for="entry_1518578278">
+								<div class="ss-q-title">
+									您希望在哪個地區舉辦戶外證婚?
+									<label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
+									<span class="ss-required-asterisk">*</span>
+								</div>
+								<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+							</label>
+							<select name="entry.1518578278" id="entry_1518578278" aria-label="您希望在哪個地區舉辦戶外證婚?  " aria-required="true" required="">
+								<option value=""></option>
+								<option value="北部">北部</option>
+								<option value="中部">中部</option>
+								<option value="南部">南部</option>
+								<option value="國外">國外</option>
+								<option value="未定">未定</option>
+							</select>
+						</div>
 					</div>
 				</div>
-			</div>
-
-			<div class="ss-form-question errorbox-good" role="listitem">
-				<div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
-					<div class="ss-form-entry">
-						<label class="ss-q-item-label" for="entry_226272340"><div class="ss-q-title">偏好的聯絡方式?
-						<label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
-						<span class="ss-required-asterisk">*</span></div>
-						<div class="ss-q-help ss-secondary-text" dir="ltr">請至少手機與電子郵件地址擇一填寫</div></label>
-						<textarea name="entry.226272340" rows="8" cols="0" class="ss-q-long" id="entry_226272340" dir="auto" aria-label="偏好的聯絡方式? 請至少手機與電子郵件地址擇一填寫 " aria-required="true" required=""></textarea>
-						<div class="error-message" id="1685176389_errorMessage"></div>
-						<div class="required-message">這是必填問題</div>
+				<br>
+				<div class="ss-form-question errorbox-good" role="listitem">
+					<div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
+						<div class="ss-form-entry">
+							<label class="ss-q-item-label" for="entry_226272340">
+								<div class="ss-q-title">
+									偏好的聯絡方式?
+									<label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
+									<span class="ss-required-asterisk">*</span>
+								</div>
+								<div class="ss-q-help ss-secondary-text" dir="ltr">請至少手機與電子郵件地址擇一填寫</div>
+							</label>
+							<input type="text" name="entry.226272340" rows="8" cols="0" class="ss-q-long" id="entry_226272340" dir="auto" aria-label="偏好的聯絡方式? 請至少手機與電子郵件地址擇一填寫 " aria-required="true" required=""></input>
+							<div class="error-message" id="1685176389_errorMessage"></div>
+						</div>			
 					</div>
 				</div>
-			</div>
-			
-			<input type="hidden" name="draftResponse" value="[,,&quot;8300333215036766409&quot;]">
-			<input type="hidden" name="pageHistory" value="0">
-			<input type="hidden" name="fbzx" value="8300333215036766409">
-
-			<div class="ss-item ss-navigate">
-				<table id="navigation-table">
-					<tbody>
-						<tr>
-							<td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
-							<input type="submit" name="submit" value="提交" id="ss-submit">
-							</td>	
-						</tr>
-						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)	{window.location='http://www.fontech.com.tw';}"></iframe>
-					</tbody>
-				</table>
-			</div>
-		</ol>
-	</form>
-</div> -->
-
-
----------------------------測試區
-<div itemscope="" itemtype="http://schema.org/CreativeWork/FormObject"><meta itemprop="name" content="DCT婚禮檔期表單">
-
-
-<meta itemprop="url" content="https://docs.google.com/forms/d/1H7W-MYCKn9p2QLIBcFZIprqKb4IsGBn7tGbA3yPOAE8/viewform?fbzx=-3054067740860504156">
-<meta itemprop="embedUrl" content="https://docs.google.com/forms/d/1H7W-MYCKn9p2QLIBcFZIprqKb4IsGBn7tGbA3yPOAE8/viewform?fbzx=-3054067740860504156&amp;embedded=true">
-<meta itemprop="faviconUrl" content="https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_jfk2.png">
-
-
-
-
-
-<div class="ss-form-container"><div class="ss-header-image-container"><div class="ss-header-image-image"><div class="ss-header-image-sizer"></div></div></div>
-<div class="ss-top-of-page"><div class="ss-form-heading"><h1 class="ss-form-title" dir="ltr">DCT婚禮檔期表單</h1>
-
-
-<div class="ss-required-asterisk" aria-hidden="true">*必填</div></div></div>
-<div class="ss-form"><form action="https://docs.google.com/forms/d/1H7W-MYCKn9p2QLIBcFZIprqKb4IsGBn7tGbA3yPOAE8/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0">
-<div class="ss-form-question errorbox-good" role="listitem">
-<div dir="ltr" class="ss-item ss-item-required ss-date"><div class="ss-form-entry">
-<label class="ss-q-item-label" for="entry_378295693"><div class="ss-q-title">請問您的婚期是?
-<label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
-<span class="ss-required-asterisk">*</span></div>
-<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-<input type="date" name="entry.378295693" value="" class="ss-q-date" dir="auto" id="entry_378295693" aria-label="請問您的婚期是?  " aria-required="true" required="">
-<div class="required-message">這是必填問題</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
-<div dir="ltr" class="ss-item ss-item-required ss-select"><div class="ss-form-entry">
-<label class="ss-q-item-label" for="entry_360143194"><div class="ss-q-title">預計的戶外證婚賓客人數為?
-<label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
-<span class="ss-required-asterisk">*</span></div>
-<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-<select name="entry.360143194" id="entry_360143194" aria-label="預計的戶外證婚賓客人數為?  " aria-required="true" required=""><option value=""></option>
-<option value="0~50">0~50</option> <option value="50~100">50~100</option> <option value="100以上">100以上</option> <option value="未定">未定</option></select>
-<div class="required-message">這是必填問題</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
-<div dir="ltr" class="ss-item ss-item-required ss-checkbox"><div class="ss-form-entry">
-<label class="ss-q-item-label" for="entry_564057038"><div class="ss-q-title">當天會舉行其他活動嗎?
-<label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
-<span class="ss-required-asterisk">*</span></div>
-<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-
-<ul class="ss-choices ss-choices-required" role="group" aria-label="當天會舉行其他活動嗎?  "><li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1324287194" value="迎娶" id="group_1324287194_1" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
-<span class="ss-choice-label">迎娶</span>
-</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1324287194" value="室內宴客" id="group_1324287194_2" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
-<span class="ss-choice-label">室內宴客</span>
-</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1324287194" value="戶外宴客" id="group_1324287194_3" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
-<span class="ss-choice-label">戶外宴客</span>
-</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1324287194" value="After-Party" id="group_1324287194_4" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
-<span class="ss-choice-label">After-Party</span>
-</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1324287194" value="其他" id="group_1324287194_5" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
-<span class="ss-choice-label">其他</span>
-</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1324287194" value="無" id="group_1324287194_6" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
-<span class="ss-choice-label">無</span>
-</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1324287194" value="未定" id="group_1324287194_7" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
-<span class="ss-choice-label">未定</span>
-</label></li></ul>
-<div class="error-message" id="564057038_errorMessage"></div>
-<div class="required-message">這是必填問題</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
-<div dir="ltr" class="ss-item ss-item-required ss-select"><div class="ss-form-entry">
-<label class="ss-q-item-label" for="entry_1518578278"><div class="ss-q-title">您希望在哪個地區舉辦戶外證婚?
-<label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
-<span class="ss-required-asterisk">*</span></div>
-<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-<select name="entry.1518578278" id="entry_1518578278" aria-label="您希望在哪個地區舉辦戶外證婚?  " aria-required="true" required=""><option value=""></option>
-<option value="北部">北部</option> <option value="中部">中部</option> <option value="南部">南部</option> <option value="國外">國外</option> <option value="未定">未定</option></select>
-<div class="required-message">這是必填問題</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
-<div dir="ltr" class="ss-item ss-item-required ss-paragraph-text"><div class="ss-form-entry">
-<label class="ss-q-item-label" for="entry_226272340"><div class="ss-q-title">偏好的聯絡方式?
-<label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
-<span class="ss-required-asterisk">*</span></div>
-<div class="ss-q-help ss-secondary-text" dir="ltr">請至少手機與電子郵件地址擇一填寫</div></label>
-<textarea name="entry.226272340" rows="8" cols="0" class="ss-q-long" id="entry_226272340" dir="auto" aria-label="偏好的聯絡方式? 請至少手機與電子郵件地址擇一填寫 " aria-required="true" required=""></textarea>
-<div class="error-message" id="1685176389_errorMessage"></div>
-<div class="required-message">這是必填問題</div>
-</div></div></div>
-<input type="hidden" name="draftResponse" value="[,,&quot;-3054067740860504156&quot;]
-">
-<input type="hidden" name="pageHistory" value="0">
-
-
-<input type="hidden" name="fbzx" value="-3054067740860504156">
-
-<div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
-<input type="submit" name="submit" value="提交" id="ss-submit">
-<div class="ss-password-warning ss-secondary-text">請勿透過 Google 表單送出密碼。</div></td>
-</tr></tbody></table></div></ol></form></div>
-<div class="ss-footer"><div class="ss-attribution"></div>
-<div class="ss-legal"><div class="disclaimer-separator"></div>
-<div class="disclaimer" dir="ltr"><div class="powered-by-logo"><span class="powered-by-text">技術提供：</span>
-<div class="ss-logo-container"><div class="ss-logo-image"></div>
-<span class="aria-only-help">Google 表單</span></div></div>
-<div class="ss-terms"><span class="disclaimer-msg">Google 並未認可或建立這項內容。</span>
-<br>
-<a href="https://docs.google.com/forms/d/1H7W-MYCKn9p2QLIBcFZIprqKb4IsGBn7tGbA3yPOAE8/reportabuse?source=https://docs.google.com/forms/d/1H7W-MYCKn9p2QLIBcFZIprqKb4IsGBn7tGbA3yPOAE8/viewform?fbzx%3D-3054067740860504156">檢舉濫用情形</a>
--
-<a href="http://www.google.com/accounts/TOS">服務條款</a>
--
-<a href="http://www.google.com/google-d-s/terms.html">其他條款</a></div></div></div></div>
-
-<div id="docs-aria-speakable" class="docs-a11y-ariascreenreader-speakable docs-offscreen" aria-live="assertive" role="region" aria-atomic="" aria-relevant="additions">螢幕閱讀器支援功能已啟用。 </div></div>
-
-
+				<br>
+				<input type="hidden" name="draftResponse" value="[,,&quot;-3054067740860504156&quot;]">
+				<input type="hidden" name="pageHistory" value="0">
+				<input type="hidden" name="fbzx" value="-3054067740860504156">
+				<div class="ss-item ss-navigate">
+					<table id="navigation-table">
+						<tbody>
+							<tr>
+								<td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+									<input type="submit" name="submit" value="提交" id="ss-submit">
+									<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)	{window.location='http://www.fontech.com.tw';}"></iframe>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</ol>
+		</form>
+	</div>
+</div>
+<script type="text/javascript">var submitted=false;</script>
 <script type="text/javascript" src="/static/forms/client/js/3627698556-formviewer_prd__zh_tw.js"></script>
 <script type="text/javascript">H5F.setup(document.getElementById('ss-form'));
           _initFormViewer(
-            "[100,,[]\n]\n");</script></div>
-
-
-
-
-
-
+            "[100,,[]\n]\n");</script>
 		<div class="base">
 	<div class="contact">
 		<div class="contact-info">
