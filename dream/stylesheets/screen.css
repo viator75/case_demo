@@ -91,7 +91,7 @@ h1 {
 }
 
 body {
-  background-image: url(/images/container-bg.png);
+  background-image: url(../images/container-bg.png);
 }
 
 .container {
