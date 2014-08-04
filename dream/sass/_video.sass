@@ -1,0 +1,134 @@
+// @include at-breakpoint($mobile)
+// @include at-breakpoint($phablet)
+// @include at-breakpoint($pad)
+// @include at-breakpoint($laptop)
+// @include at-breakpoint($desktop)
+
+.video-holder
+	width: 100%
+	position: relative
+	border-bottom: 3px solid darken($helper-color, 15%)
+	overflow: hidden
+	display: none
+	@include at-breakpoint($pad)
+		display: block
+	
+video
+	width: 101%
+	display: none
+	@include at-breakpoint($pad)
+		display: block
+	
+// 	// +filter(blur(2px))
+// 	display: block
+.video-cover
+	position: absolute
+	top: 0
+	bottom: 0
+	left: 0
+	right: 0
+	background-image: -webkit-linear-gradient(transparent 50%, rgba(225,225,225,.7) 50%)
+	background-image: -o-linear-gradient(transparent 50%, rgba(225,225,225,.7) 50%)
+	background-image: linear-gradient(transparent 50%, rgba(225,225,225,.7) 50%)
+	background-size: 2px 2px
+.video-info
+	@include at-breakpoint($pad)
+		padding: 5em 2em 1em 2em
+		margin: 2% auto
+	@include at-breakpoint($laptop)
+		padding: 5em 2em 2em 2em
+		margin: 6% auto
+	@include at-breakpoint($desktop)
+		padding: 5em 2em 2em 2em
+		margin: 10% auto
+
+
+.video-info
+	width: 480px
+	height: auto
+	// margin: 10% auto
+	border: 3px solid $helper-color
+	+border-radius(7px)
+	background-color: rgba(#fafafa, 0.9)
+	position: relative
+	p
+		text-align: left
+		width: 100%
+		font-size: 1.2em
+		line-height: 1.4
+		display: block
+	.ribbon-left
+		width: 0
+		height: 0
+		border: 24px solid darken($theme-color, 5%)
+		border-right: 32px solid darken($theme-color, 5%)
+		border-left: 24px solid transparent
+		position: absolute
+		top: 32px
+		left: -59px	
+		.ribbon-line
+			height: 44px
+			width: 48px
+			position: absolute
+			top: -22px
+			left: -16px
+			border: 1px dashed white
+			border-left: 0
+			border-right: 0
+	.ribbon-right
+		width: 0
+		height: 0
+		border: 24px solid darken($theme-color, 5%)
+		border-left: 32px solid darken($theme-color, 5%)
+		border-right: 24px solid transparent
+		position: absolute
+		top: 32px
+		right: -59px	
+		.ribbon-line
+			height: 44px
+			width: 48px
+			position: absolute
+			top: -22px
+			right: -16px
+			border: 1px dashed white
+			border-left: 0
+			border-right: 0
+	.ribbon-title
+		height: 48px
+		width: 504px
+		background-color: $theme-color
+		position: absolute
+		top: 14px
+		left: -15px	
+		z-index: 10
+		&:before, &:after
+			content: ""
+			width: 0
+			height: 0
+			border: 6px solid transparent
+			position: absolute
+			top: 48px
+			z-index: 1
+		&:before
+			border-top: 6px solid darken($theme-color, 25%)
+			border-right: 6px solid darken($theme-color, 25%)
+			left: 0
+		&:after
+			border-top: 6px solid darken($theme-color, 25%)
+			border-left: 6px solid darken($theme-color, 25%)
+			right: 0
+		.ribbon-title-line
+			z-index: 2
+			height: 44px
+			margin-top: 2px
+			text-align: center
+			line-height: 44px
+			font-size: 22px
+			color: white
+			border: 1px dashed white
+			border-left: 0
+			border-right: 0
+			
+	.video-info-name
+		margin-top: 16%
+		text-align: right

@@ -1,0 +1,150 @@
+form
+// @include at-breakpoint($mobile)
+// @include at-breakpoint($phablet)
+// @include at-breakpoint($pad)
+// @include at-breakpoint($laptop)
+// @include at-breakpoint($desktop)
+
+
+.form-box
+	padding: 5em 2em 0 2em
+	margin-top: 12px
+	position: relative
+	background-color: white
+	h1
+		text-align: center
+		// margin-bottom: 0.5em
+	.ss-form-question
+		margin-bottom: 2em
+	.ss-q-title
+		position: relative
+		&:before
+			position: absolute
+			content: ""
+			width: 8px
+			height: 8px
+			top: 3px
+			left: -16px
+			background-color: $helper-color
+			+border-radius(50%)
+	.ribbon-left
+		width: 0
+		height: 0
+		border: 24px solid darken($theme-color, 5%)
+		border-right: 32px solid darken($theme-color, 5%)
+		border-left: 24px solid transparent
+		position: absolute
+		top: 12px
+		left: -94px	
+		.ribbon-line
+			height: 44px
+			width: 48px
+			position: absolute
+			top: -22px
+			left: -16px
+			border: 1px dashed white
+			border-left: 0
+			border-right: 0
+	.ribbon-right
+		width: 0
+		height: 0
+		border: 24px solid darken($theme-color, 5%)
+		border-left: 32px solid darken($theme-color, 5%)
+		border-right: 24px solid transparent
+		position: absolute
+		top: 12px
+		right: -94px	
+		.ribbon-line
+			height: 44px
+			width: 48px
+			position: absolute
+			top: -22px
+			right: -16px
+			border: 1px dashed white
+			border-left: 0
+			border-right: 0
+	.ribbon-title
+		height: 48px
+		width: 604px
+		background-color: $theme-color
+		position: absolute
+		top: -12px
+		left: -50px	
+		z-index: 10
+		&:before, &:after
+			content: ""
+			width: 0
+			height: 0
+			border: 6px solid transparent
+			position: absolute
+			top: 48px
+			z-index: 1
+		&:before
+			border-top: 6px solid darken($theme-color, 25%)
+			border-right: 6px solid darken($theme-color, 25%)
+			left: 0
+		&:after
+			border-top: 6px solid darken($theme-color, 25%)
+			border-left: 6px solid darken($theme-color, 25%)
+			right: 0
+		.ribbon-title-line
+			z-index: 2
+			height: 44px
+			margin-top: 2px
+			text-align: center
+			line-height: 44px
+			font-size: 22px
+			color: white
+			border: 1px dashed white
+			border-left: 0
+			border-right: 0
+			
+	.video-info-name
+		margin-top: 16%
+		text-align: right
+
+	label
+		font-size: 1em
+	input, select, textarea, .input-date
+		height: 2em
+		border: 0
+		font-size: 1em
+		+border-radius(5px)
+		border: 1px solid rgba($helper-color, 0.8)
+		padding: 8px 8px
+		margin: 8px 0
+		&:focus
+			background-color: #efefef
+			border: 1px solid #d8cfb9
+			outline: 0
+	input[type="text"], .input-date, select
+		width: 220px
+		height: 2em
+	textarea
+		width: 100%
+		height: 8em
+	ul
+		margin-left: -20px
+	ul li
+		display: inline-block
+	input[type="checkbox"]
+		vertical-align: middle
+		display: inline-block
+		margin: 0px 0 0 24px
+		label
+			vertical-align: middle
+			display: inline-block
+	#ss-submit
+		height: auto
+		width: 160px
+		margin: 24px auto 0 auto
+		// line-height: 1.2
+		padding: 0.6em 1.2em
+		background-color: #e7dec7
+		+border-radius(5px)
+		// +box-shadow(inset rgba(250, 250, 250, 0.4) 0px 1px 1px 1px)
+		border: 1px solid transparent
+		// margin-top: 12px
+		display: block
+		&:hover
+			+box-shadow(inset rgba(250, 250, 250, 0.4) 0px -1px 1px 1px)

@@ -1,0 +1,97 @@
+
+.head
+	display: block
+	width: 100%
+	margin: 0 auto
+	// background-attachment: fixed
+	// background-position: center center
+
+.logo
+	display: block
+	margin: 0 auto
+	width: 320px
+	// font-size: 1.4em
+	// line-height: 1
+.logo-zh
+	font-size: 1.4em
+.logo-en
+	font-size: 1.2em
+	line-height: 1em
+.navigation
+	background-color: #fafafa
+	border-top: 1px solid $helper-color
+	+box-shadow(0 -1px 2px rgba(120, 120, 120, 0.1), 0 -2px 2px rgba(120, 120, 120, 0.1))
+	ul, .reservation
+		display: none
+// @include at-breakpoint($mobile)
+// 	.navigation
+// 		border-top: 1px solid $helper-color
+// 		ul, .reservation
+// 			display: none
+// @include at-breakpoint($phablet)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navigation
+	@include at-breakpoint($pad)
+		padding: 0 16px
+		border-top: 1px solid $helper-color
+		border-bottom: 1px solid $helper-color
+		height: 2.5em
+		overflow: hidden
+		ul
+			display: block
+			_width: 100%
+			line-height: 2.5em 
+			li
+				color: $helper-color
+				float: left
+				padding: 0
+				a
+					display: block
+					// height: 32px
+					// line-height: 2.5em
+					width: 100%
+					padding: 0em 2.2em
+					// +box-shadow(1px 0 1px $helper-color, -1px 0 1px $helper-color)
+					&:hover
+						color: darken($helper-color, 55%)
+		.reservation
+			display: block
+			float: right
+			line-height: 2.5em
+			padding: 0 2.5em
+			text-align: center
+			border-left: 1px solid $helper-color
+			border-right: 1px solid $helper-color
+			background-color: #fafafa
+			&:hover
+				background-color: $helper-color
+	@include at-breakpoint($laptop)
+		padding: 0 24px
+	@include at-breakpoint($desktop)
+		border-top: 1px solid $helper-color
+		border-bottom: 1px solid $helper-color
+		height: 3em
+		ul
+			display: block
+			_width: 100%
+			line-height: 3em 
+			li
+				float: left
+				line-height: 3em
+		.reservation
+			display: block
+			float: right
+			line-height: 3em

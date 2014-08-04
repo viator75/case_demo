@@ -1,0 +1,24 @@
+.article
+	width: 94%
+	max-width: 580px
+	margin: 0.5em auto 1em auto
+	background-color: #fafafa
+	padding: 4px
+	+box-shadow(1px 3px 8px rgba(120, 120, 120, 0.6))
+	@include at-breakpoint($pad)
+		margin: 1em auto 2em auto
+
+.article-line
+	padding: 1em 12px 2em 12px
+	border: 2px dashed $helper-color
+	p
+		line-height: 1.6
+	@include at-breakpoint($pad)
+		padding: 1em 2em 4em 2em
+
+// @include at-breakpoint($mobile)
+// @include at-breakpoint($phablet)
+// @include at-breakpoint($pad)
+// @include at-breakpoint($laptop)
+// @include at-breakpoint($desktop)
+
