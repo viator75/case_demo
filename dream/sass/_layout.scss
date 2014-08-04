@@ -23,11 +23,13 @@ $desktop   : 1281px  16 ;
 // $desktop-padding : 20px;
 
 
-
 $helper-color: #e7dec7;
 $theme-color: #53b1ba;
 $attention-color: #b12520;
-
+$font-zh: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",helvetica, Arial, "Heiti TC", "LiHei Pro", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+$font-en-1: "Playfair Display SC";
+$font-en-2: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, "Dancing Script";
+// $font-en-1: ""
 *{
 	text-decoration: none;
 	@include box-sizing(border-box);
@@ -35,6 +37,7 @@ $attention-color: #b12520;
 
 p, a, li, h1, h2, h3{
 	color: #343434;
+	font-family: $font-zh;
 }
 
 h1{

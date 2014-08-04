@@ -63,6 +63,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 p, a, li, h1, h2, h3 {
   color: #343434;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Heiti TC", "LiHei Pro", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", sans-serif;
 }
 
 h1 {
@@ -131,6 +132,11 @@ body {
   margin: 0 auto;
   width: 320px;
 }
+@media (min-width: 741px) {
+  .logo {
+    width: 340px;
+  }
+}
 
 .logo-zh {
   font-size: 1.4em;
@@ -139,6 +145,12 @@ body {
 .logo-en {
   font-size: 1.2em;
   line-height: 1em;
+  font-family: "Playfair Display SC";
+}
+@media (min-width: 741px) {
+  .logo-en {
+    font-size: 1.6em;
+  }
 }
 
 .navigation {
@@ -376,36 +388,36 @@ body {
 .GICarousel.GI_C_wrapper ul.GI_C_items li h2 {
   text-align: left;
   color: white;
-  text-shadow: 2px 2px 2px rgba(120, 120, 120, 0.6);
+  text-shadow: 2px 2px 2px rgba(120, 120, 120, 0.7);
 }
 @media (max-width: 480px) {
   .GICarousel.GI_C_wrapper ul.GI_C_items li h2 {
-    padding: 12px;
+    padding: 12px  0  0 12px;
     text-align: center;
     font-size: 1.2em;
   }
 }
 @media (min-width: 481px) {
   .GICarousel.GI_C_wrapper ul.GI_C_items li h2 {
-    padding: 1em 0 0.5em 16px;
+    padding: 1em 0 2px 16px;
     font-size: 1.6em;
   }
 }
 @media (min-width: 741px) {
   .GICarousel.GI_C_wrapper ul.GI_C_items li h2 {
-    padding: 1em 0 0.5em 24px;
+    padding: 1em 0 4px 24px;
     font-size: 1.8em;
   }
 }
 @media (min-width: 981px) {
   .GICarousel.GI_C_wrapper ul.GI_C_items li h2 {
-    padding: 1em 0 0.5em 32px;
+    padding: 1em 0 4px 32px;
     font-size: 2em;
   }
 }
 @media (min-width: 1281px) {
   .GICarousel.GI_C_wrapper ul.GI_C_items li h2 {
-    padding: 1em 0 0.5em 32px;
+    padding: 1em 0 4px 32px;
     font-size: 2.2em;
   }
 }
@@ -845,10 +857,25 @@ video {
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: url(../images/pattern.png);
+}
+.video-cover:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  background-image: url(../images/line-pattern.png);
   background-repeat: repeat;
+  background-size: 24px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+  opacity: 0.3;
+  z-index: 1;
 }
 
+.video-info {
+  z-index: 2;
+}
 @media (min-width: 741px) {
   .video-info {
     padding: 5em 2em 1em 2em;
@@ -970,6 +997,8 @@ video {
 .video-info .video-info-name {
   margin-top: 16%;
   text-align: right;
+  font-family: "Playfair Display SC";
+  font-style: italic;
 }
 
 .article {
@@ -1005,7 +1034,6 @@ video {
   padding: 5em 2em 0 2em;
   margin-top: 12px;
   position: relative;
-  background-color: white;
 }
 .form-box h1 {
   text-align: center;
@@ -1235,12 +1263,18 @@ video {
   border-bottom: 3px solid #e7dec7;
 }
 .contact-info p {
-  line-height: 1.2;
+  line-height: 1.4;
 }
-
 .contact-info a {
   display: inline-block;
   text-decoration: underline;
+  line-height: 1.4;
+}
+
+@media (min-width: 981px) {
+  .contact-info {
+    padding: 0 2em;
+  }
 }
 
 i {

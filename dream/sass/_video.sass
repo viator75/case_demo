@@ -27,13 +27,24 @@ video
 	bottom: 0
 	left: 0
 	right: 0
-	background-image: url(../images/pattern.png)
-	background-repeat: repeat
-	// background-image: -webkit-linear-gradient(transparent 50%, rgba(225,225,225,.7) 50%)
-	// background-image: -o-linear-gradient(transparent 50%, rgba(225,225,225,.7) 50%)
-	// background-image: linear-gradient(transparent 50%, rgba(225,225,225,.7) 50%)
-	// background-size: 2px 2px
+	&:after
+		position: absolute
+		top: 0
+		bottom: 0
+		left: 0
+		right: 0
+		content: ""
+		background-image: url(../images/line-pattern.png)
+		background-repeat: repeat
+		background-size: 24px
+		+opacity(0.3)
+		z-index: 1
+		// background-image: -webkit-linear-gradient(transparent 50%, rgba(225,225,225,.7) 50%)
+		// background-image: -o-linear-gradient(transparent 50%, rgba(225,225,225,.7) 50%)
+		// background-image: linear-gradient(transparent 50%, rgba(225,225,225,.7) 50%)
+		// background-size: 2px 2px
 .video-info
+	z-index: 2
 	@include at-breakpoint($pad)
 		padding: 5em 2em 1em 2em
 		margin: 2% auto
@@ -134,3 +145,5 @@ video
 	.video-info-name
 		margin-top: 16%
 		text-align: right
+		font-family: $font-en-1
+		font-style: italic

@@ -35,12 +35,15 @@
 		&:hover
 			border-bottom: 3px solid $helper-color
 	p
-		line-height: 1.2
-		
-.contact-info
+		line-height: 1.4
 	a
 		display: inline-block
 		text-decoration: underline
+		line-height: 1.4
+.contact-info
+	@include at-breakpoint($laptop)
+		padding: 0 2em
+
 i
 	margin: 8px 2px 0 0
 .fa-pinterest-square

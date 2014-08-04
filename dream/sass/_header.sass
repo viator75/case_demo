@@ -10,6 +10,9 @@
 	display: block
 	margin: 0 auto
 	width: 320px
+	@include at-breakpoint($pad)
+		width: 340px
+
 	// font-size: 1.4em
 	// line-height: 1
 .logo-zh
@@ -17,6 +20,10 @@
 .logo-en
 	font-size: 1.2em
 	line-height: 1em
+	font-family: $font-en-1
+	@include at-breakpoint($pad)
+		font-size: 1.6em
+
 .navigation
 	background-color: #fafafa
 	border-top: 1px solid $helper-color
