@@ -146,6 +146,7 @@ body {
   font-size: 1.2em;
   line-height: 1em;
   font-family: "Playfair Display SC", "Heiti TC", "LiHei Pro", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+  font-style: italic;
 }
 @media (min-width: 741px) {
   .logo-en {
