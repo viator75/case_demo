@@ -61,7 +61,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   box-sizing: border-box;
 }
 
-p, a, li, h1, h2, h3 {
+p, a, li, h1, h2, h3, label {
   color: #343434;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Heiti TC", "LiHei Pro", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", sans-serif;
 }
@@ -145,7 +145,7 @@ body {
 .logo-en {
   font-size: 1.2em;
   line-height: 1em;
-  font-family: "Playfair Display SC";
+  font-family: "Playfair Display SC", "Heiti TC", "LiHei Pro", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", sans-serif;
 }
 @media (min-width: 741px) {
   .logo-en {
@@ -997,7 +997,7 @@ video {
 .video-info .video-info-name {
   margin-top: 16%;
   text-align: right;
-  font-family: "Playfair Display SC";
+  font-family: "Playfair Display SC", "Heiti TC", "LiHei Pro", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", sans-serif;
   font-style: italic;
 }
 
@@ -1254,13 +1254,10 @@ video {
   }
 }
 .contact-info h2 {
-  border-bottom: 3px solid rgba(231, 222, 199, 0.5);
+  border-bottom: 3px solid #e7dec7;
   font-size: 1.2em;
   margin-bottom: 8px;
   padding-bottom: 4px;
-}
-.contact-info h2:hover {
-  border-bottom: 3px solid #e7dec7;
 }
 .contact-info p {
   line-height: 1.4;
