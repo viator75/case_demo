@@ -3,17 +3,23 @@
 // @include at-breakpoint($pad)
 // @include at-breakpoint($laptop)
 // @include at-breakpoint($desktop)
-
+.slider-box {
+  width: 100%;
+  padding-bottom: 56.25%;
+  position: relative;
+}
 .GICarousel {
   padding: 0;
-/*  top: 0;
+  top: 0;
+  bottom: 0;
   left: 0;
-  height: 100%;*/
+  right: 0;
+  height: 100%;
   width: 100%;
   overflow: hidden;
-  position: relative;
+  position: absolute;
   z-index: 99;
-  height: 400px;
+  // height: 400px;
   @include box-shadow(1px 2px 1px rgba(120, 120, 120, 0.5))
 }
 .GICarousel ul {
@@ -74,29 +80,36 @@
 
 .GICarousel, .GI_C_wrapper {
   @include at-breakpoint($mobile) {
-    height: 240px;
+    // height: 240px;
     border-top: 1px solid #ddd6bf;
     border-bottom: 1px solid #ddd6bf;
   }
   @include at-breakpoint($phablet) {
-    height: 320px;
+    // height: 320px;
     // border: 1px solid #ddd6bf;
   }
   @include at-breakpoint($pad) {
-    height: 380px;
+    // height: 380px;
     // border: 1px solid #ddd6bf;
   }
   @include at-breakpoint($laptop) {
-    height: 480px;
+    // height: 480px;
     // border: 1px solid #ddd6bf;
   }
   @include at-breakpoint($desktop) {
-    height: 540px;
+    // height: 540px;
     // border: 1px solid #ddd6bf;
   }
   width: 100%;
   overflow: hidden;
-  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
   
   /*
   *
@@ -142,9 +155,6 @@
   overflow: hidden;
   background-size: cover;
   background-position: center center;
-  @include at-breakpoint($laptop) {
-      background-attachment: fixed;
-    }
   h2{
     // background-color: #34a8b0;
     text-align: left;
@@ -157,19 +167,19 @@
     }
     @include at-breakpoint($phablet) {
       padding: 1em 0 2px 16px;
-      font-size: 1.6em;
+      font-size: 1.4em;
     }
     @include at-breakpoint($pad) {
       padding: 1em 0 4px 24px;
-      font-size: 1.8em;
+      font-size: 1.6em;
     }
     @include at-breakpoint($laptop) {
       padding: 1em 0 4px 32px;
-      font-size: 2em;
+      font-size: 1.8em;
     }
     @include at-breakpoint($desktop) {
-      padding: 1em 0 4px 32px;
-      font-size: 2.2em;
+      padding: 1.6em 0 4px 32px;
+      font-size: 1.8em;
     }
   }
   h3{
@@ -182,19 +192,19 @@
     }
     @include at-breakpoint($phablet) {
       padding-left: 16px;
-      font-size: 1.4em;
+      font-size: 1.2em;
     }
     @include at-breakpoint($pad) {
       padding-left: 24px;
-      font-size: 1.6em;
+      font-size: 1.4em;
     }
     @include at-breakpoint($laptop) {
       padding-left: 32px;
-      font-size: 1.8em;
+      font-size: 1.6em;
     }
     @include at-breakpoint($desktop) {
       padding-left: 32px;
-      font-size: 2em;
+      font-size: 1.8em;
     }
   }
 }
