@@ -297,20 +297,6 @@ body {
   z-index: 110;
 }
 
-/*.GICarousel .GI_Controls.GI_C_disabled {
-  opacity: 0.3;
-  cursor: default;
-}*/
-/*.GICarousel .GI_C_close {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: red;
-  width: 50px;
-  height: 50px;
-}
-
-*/
 .GICarousel .GI_C_prev, .GICarousel .GI_C_next {
   position: absolute;
   top: 44%;
