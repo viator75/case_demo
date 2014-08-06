@@ -7,9 +7,14 @@ form
 
 
 .form-box
-	padding: 5em 2em 0 2em
 	margin-top: 12px
 	position: relative
+	@include at-breakpoint($mobile)
+		padding: 2em 0 0 14px
+	@include at-breakpoint($phablet)
+		padding: 3em 2em 0 2em
+	@include at-breakpoint($pad)
+		padding: 5em 2em 0 2em
 	h1
 		text-align: center
 		// margin-bottom: 0.5em
@@ -33,8 +38,15 @@ form
 		border-right: 32px solid darken($theme-color, 5%)
 		border-left: 24px solid transparent
 		position: absolute
-		top: 12px
-		left: -94px	
+		@include at-breakpoint($mobile)
+			top: -36px
+			left: -28px
+		@include at-breakpoint($phablet)
+			top: -32px
+			left: -44px
+		@include at-breakpoint($pad)
+			top: 6px		
+			left: -94px
 		.ribbon-line
 			height: 44px
 			width: 48px
@@ -51,8 +63,15 @@ form
 		border-left: 32px solid darken($theme-color, 5%)
 		border-right: 24px solid transparent
 		position: absolute
-		top: 12px
-		right: -94px	
+		@include at-breakpoint($mobile)
+			top: -36px
+			right: -28px
+		@include at-breakpoint($phablet)
+			top: -32px
+			right: -44px
+		@include at-breakpoint($pad)
+			top: 6px
+			right: -94px
 		.ribbon-line
 			height: 44px
 			width: 48px
@@ -64,12 +83,22 @@ form
 			border-right: 0
 	.ribbon-title
 		height: 48px
-		width: 604px
 		background-color: $theme-color
 		position: absolute
-		top: -12px
-		left: -50px	
 		z-index: 10
+		@include at-breakpoint($mobile)
+			top: -48px
+			left: 16px
+			right: 16px
+		@include at-breakpoint($phablet)
+			top: -44px
+			left: 0px
+			right: 0px
+		@include at-breakpoint($pad)
+			top: -12px
+			left: -50px
+			right: -50px
+
 		&:before, &:after
 			content: ""
 			width: 0
@@ -97,10 +126,7 @@ form
 			border: 1px dashed white
 			border-left: 0
 			border-right: 0
-			
-	.video-info-name
-		margin-top: 16%
-		text-align: right
+
 
 	label
 		font-size: 1em

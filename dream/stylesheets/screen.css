@@ -725,14 +725,15 @@ body {
   .features .content .content-info p {
     font-size: 1em;
     text-align: left;
-    line-height: 1.4;
-    margin: 1em 0 2em 0;
+    line-height: 1.6;
+    margin: 0 0 1.5em 0;
     border: 0;
+    padding: 0;
   }
   .features .content .content-info a {
     display: block;
     width: 100%;
-    padding: 1em 0;
+    padding: 0.8em 0;
     border: 1px solid #b12520;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -767,8 +768,8 @@ body {
   }
   .features .content .content-info p {
     text-align: left;
-    line-height: 1.4;
-    margin: 1em 0 2em 0;
+    line-height: 1.6;
+    margin: 0.6em 0 2em 0;
   }
   .features .content .content-info a {
     display: block;
@@ -1025,9 +1026,23 @@ video {
 }
 
 .form-box {
-  padding: 5em 2em 0 2em;
   margin-top: 12px;
   position: relative;
+}
+@media (max-width: 480px) {
+  .form-box {
+    padding: 2em 0 0 14px;
+  }
+}
+@media (min-width: 481px) {
+  .form-box {
+    padding: 3em 2em 0 2em;
+  }
+}
+@media (min-width: 741px) {
+  .form-box {
+    padding: 5em 2em 0 2em;
+  }
 }
 .form-box h1 {
   text-align: center;
@@ -1059,8 +1074,24 @@ video {
   border-right: 32px solid #46a5ae;
   border-left: 24px solid transparent;
   position: absolute;
-  top: 12px;
-  left: -94px;
+}
+@media (max-width: 480px) {
+  .form-box .ribbon-left {
+    top: -36px;
+    left: -28px;
+  }
+}
+@media (min-width: 481px) {
+  .form-box .ribbon-left {
+    top: -32px;
+    left: -44px;
+  }
+}
+@media (min-width: 741px) {
+  .form-box .ribbon-left {
+    top: 6px;
+    left: -94px;
+  }
 }
 .form-box .ribbon-left .ribbon-line {
   height: 44px;
@@ -1079,8 +1110,24 @@ video {
   border-left: 32px solid #46a5ae;
   border-right: 24px solid transparent;
   position: absolute;
-  top: 12px;
-  right: -94px;
+}
+@media (max-width: 480px) {
+  .form-box .ribbon-right {
+    top: -36px;
+    right: -28px;
+  }
+}
+@media (min-width: 481px) {
+  .form-box .ribbon-right {
+    top: -32px;
+    right: -44px;
+  }
+}
+@media (min-width: 741px) {
+  .form-box .ribbon-right {
+    top: 6px;
+    right: -94px;
+  }
 }
 .form-box .ribbon-right .ribbon-line {
   height: 44px;
@@ -1094,12 +1141,30 @@ video {
 }
 .form-box .ribbon-title {
   height: 48px;
-  width: 604px;
   background-color: #53b1ba;
   position: absolute;
-  top: -12px;
-  left: -50px;
   z-index: 10;
+}
+@media (max-width: 480px) {
+  .form-box .ribbon-title {
+    top: -48px;
+    left: 16px;
+    right: 16px;
+  }
+}
+@media (min-width: 481px) {
+  .form-box .ribbon-title {
+    top: -44px;
+    left: 0px;
+    right: 0px;
+  }
+}
+@media (min-width: 741px) {
+  .form-box .ribbon-title {
+    top: -12px;
+    left: -50px;
+    right: -50px;
+  }
 }
 .form-box .ribbon-title:before, .form-box .ribbon-title:after {
   content: "";
@@ -1131,10 +1196,6 @@ video {
   border: 1px dashed white;
   border-left: 0;
   border-right: 0;
-}
-.form-box .video-info-name {
-  margin-top: 16%;
-  text-align: right;
 }
 .form-box label {
   font-size: 1em;
@@ -1212,7 +1273,7 @@ video {
     margin-right: -100%;
     margin-left: 0%;
     margin-top: 1em;
-    margin-bottom: 3em;
+    margin-bottom: 0em;
   }
 }
 .contact h1 {
@@ -1222,7 +1283,7 @@ video {
 .contact-info {
   display: block;
   width: 320px;
-  margin: 1em auto 2em auto;
+  margin: 1em auto 80px auto;
   padding: 0 8px;
   line-height: 1.3;
 }
