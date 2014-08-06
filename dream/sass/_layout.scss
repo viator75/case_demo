@@ -56,8 +56,23 @@ h1{
 		font-size: 1.8em;		
 	}
 }
-
-
+.article h2{
+	text-align: left;
+	line-height: 2em;
+	margin-top: 8px;
+	@include at-breakpoint($mobile){
+		font-size: 1.2em		
+	}
+	@include at-breakpoint($phablet){
+			font-size: 1.2em		
+	}
+	@include at-breakpoint($pad){
+		font-size: 1.2em		
+	}
+	@include at-breakpoint($laptop){
+		font-size: 1.2em;	
+	}
+}
 body{
 	background-image: url(../images/container-bg.png);
 }

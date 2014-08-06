@@ -91,6 +91,32 @@ h1 {
   }
 }
 
+.article h2 {
+  text-align: left;
+  line-height: 2em;
+  margin-top: 8px;
+}
+@media (max-width: 480px) {
+  .article h2 {
+    font-size: 1.2em;
+  }
+}
+@media (min-width: 481px) {
+  .article h2 {
+    font-size: 1.2em;
+  }
+}
+@media (min-width: 741px) {
+  .article h2 {
+    font-size: 1.2em;
+  }
+}
+@media (min-width: 981px) {
+  .article h2 {
+    font-size: 1.2em;
+  }
+}
+
 body {
   background-image: url(../images/container-bg.png);
 }
@@ -1030,6 +1056,29 @@ video {
   .article-line {
     padding: 1em 2em 3em 2em;
   }
+}
+.article-line .back {
+  height: auto;
+  width: 180px;
+  text-align: center;
+  margin: 32px auto 0 auto;
+  font-size: 1.2em;
+  padding: 8px 1.2em;
+  background-color: #e7dec7;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  display: block;
+}
+.article-line .back:hover {
+  border: 1px solid #d0be91;
+  background-color: #f2ede0;
+}
+.article-line .back:active {
+  background-color: #e9e0cb;
 }
 
 .form-box {

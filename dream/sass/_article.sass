@@ -17,6 +17,22 @@
 	@include at-breakpoint($pad)
 		padding: 1em 2em 3em 2em
 
+	.back
+		height: auto
+		width: 180px
+		text-align: center
+		margin: 32px auto 0 auto
+		font-size: 1.2em
+		padding: 8px 1.2em
+		background-color: #e7dec7
+		+border-radius(5px)
+		border: 1px solid transparent
+		display: block
+		&:hover
+			border: 1px solid darken(#e7dec7, 15%)
+			background-color: lighten(#e7dec7, 7%)
+		&:active
+			background-color: lighten(#e7dec7, 1%)
 // @include at-breakpoint($mobile)
 // @include at-breakpoint($phablet)
 // @include at-breakpoint($pad)

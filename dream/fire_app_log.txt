@@ -2444,3 +2444,22 @@ Load paths:
 2014-08-06 16:51:29 overwrite stylesheets/screen.css 
 2014-08-06 16:51:37 overwrite stylesheets/screen.css 
 2014-08-06 16:51:48 overwrite stylesheets/screen.css 
+2014-08-06 16:57:05     error sass/screen.sass (Line 111 of sass/_layout.scss: Invalid CSS after "}": expected "}", was "")
+2014-08-06 16:57:05 overwrite stylesheets/screen.css 
+2014-08-06 16:57:20     error sass/screen.sass (Line 111 of sass/_layout.scss: Invalid CSS after "}": expected "}", was "")
+2014-08-06 16:57:20 identical stylesheets/screen.css 
+2014-08-06 16:57:38     error sass/screen.sass (Line 110 of sass/_layout.scss: Invalid CSS after "}": expected "}", was "")
+2014-08-06 16:57:38 overwrite stylesheets/screen.css 
+2014-08-06 16:57:48 overwrite stylesheets/screen.css 
+2014-08-06 16:57:53 identical stylesheets/screen.css 
+2014-08-06 16:58:50 overwrite stylesheets/screen.css 
+2014-08-06 16:58:58 overwrite stylesheets/screen.css 
+2014-08-06 16:59:02 overwrite stylesheets/screen.css 
+2014-08-06 17:01:52 overwrite stylesheets/screen.css 
+2014-08-06 17:02:00 overwrite stylesheets/screen.css 
+2014-08-06 17:03:29 overwrite stylesheets/screen.css 
+2014-08-06 17:04:00 overwrite stylesheets/screen.css 
+2014-08-06 17:04:02 overwrite stylesheets/screen.css 
+2014-08-06 17:04:21 overwrite stylesheets/screen.css 
+2014-08-06 17:04:38 overwrite stylesheets/screen.css 
+2014-08-06 17:04:52 overwrite stylesheets/screen.css 
