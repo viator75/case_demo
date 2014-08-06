@@ -619,6 +619,9 @@ body {
 .features .content {
   display: block;
 }
+.features .content:hover .magic-icon {
+  background-image: url(../images/dct-icon-magic-1.png);
+}
 @media (min-width: 741px) {
   .features .content {
     position: absolute;
@@ -669,7 +672,7 @@ body {
 }
 .features .content .content-info h1 {
   text-align: left;
-  font-size: 1.2em;
+  font-size: 1.4em;
   vertical-align: middle;
 }
 .features .content .content-info p {
@@ -759,6 +762,7 @@ body {
   .features .content .content-info h1 {
     text-align: left;
     font-size: 2em;
+    line-height: 2em;
     vertical-align: middle;
   }
   .features .content .content-info p {
@@ -801,6 +805,7 @@ body {
   background-size: 48px;
   width: 48px;
   height: 48px;
+  margin-bottom: 12px;
   margin-right: 8px;
   vertical-align: middle;
 }
@@ -810,7 +815,7 @@ body {
 }
 
 .magic-icon {
-  background-image: url(../images/dct-icon-magic-1.png);
+  background-image: url(../images/dct-icon-magic-2.png);
 }
 
 .ring-icon {

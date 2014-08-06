@@ -79,6 +79,8 @@
 			z-index: 2
 	.content
 		display: block
+		&:hover .magic-icon
+			background-image: url(../images/dct-icon-magic-1.png)
 		@include at-breakpoint($pad)
 			position: absolute
 			top: 10.5em
@@ -120,7 +122,7 @@
 			padding: 0 8px
 			h1
 				text-align: left
-				font-size: 1.2em
+				font-size: 1.4em
 				vertical-align: middle
 			p
 				font-size: 1em
@@ -190,6 +192,7 @@
 				h1
 					text-align: left
 					font-size: 2em
+					line-height: 2em
 					vertical-align: middle
 				p
 					text-align: left
@@ -227,14 +230,15 @@
 	background-size: 48px
 	width: 48px
 	height: 48px
+	margin-bottom: 12px
 	margin-right: 8px
 	vertical-align: middle
 .plaza-icon
 	background-image: url(../images/dct-icon-magic-1.png)
 	@extend %icon
 .magic-icon
-	background-image: url(../images/dct-icon-magic-1.png)
 	@extend %icon
+	background-image: url(../images/dct-icon-magic-2.png)
 .ring-icon
 	background-image: url(../images/dct-icon-ring.png)
 	@extend %icon
