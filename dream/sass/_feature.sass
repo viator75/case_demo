@@ -79,8 +79,12 @@
 			z-index: 2
 	.content
 		display: block
-		&:hover .magic-icon
-			background-image: url(../images/dct-icon-magic-1.png)
+		&:hover
+			.magic-icon
+				background-image: url(../images/dct-magic-1.png)
+			.plaza-icon
+				background-image: url(../images/dct-plaza-1.png)
+
 		@include at-breakpoint($pad)
 			position: absolute
 			top: 10.5em
@@ -235,13 +239,13 @@
 	margin-right: 8px
 	vertical-align: middle
 .plaza-icon
-	background-image: url(../images/dct-icon-magic-1.png)
+	background-image: url(../images/dct-plaza-2.png)
 	@extend %icon
 .magic-icon
 	@extend %icon
-	background-image: url(../images/dct-icon-magic-2.png)
+	background-image: url(../images/dct-magic-2.png)
 .ring-icon
-	background-image: url(../images/dct-icon-ring.png)
+	background-image: url(../images/dct-ring.png)
 	@extend %icon
 
 // keyframes mixin

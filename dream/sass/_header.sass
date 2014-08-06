@@ -3,12 +3,14 @@
 	display: block
 	width: 100%
 	margin: 0 auto
-	// background-attachment: fixed
-	// background-position: center center
+	border-top: 64px solid #1f232c
+	@include at-breakpoint($pad)
+		border-top: 3px solid $theme-color
+
 
 .logo
 	display: block
-	margin: 0 auto
+	margin: 0 auto 12px auto
 	width: 320px
 	@include at-breakpoint($pad)
 		width: 340px

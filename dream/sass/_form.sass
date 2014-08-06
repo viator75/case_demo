@@ -31,103 +31,6 @@ form
 			left: -16px
 			background-color: $helper-color
 			+border-radius(50%)
-	.ribbon-left
-		width: 0
-		height: 0
-		border: 24px solid darken($theme-color, 5%)
-		border-right: 32px solid darken($theme-color, 5%)
-		border-left: 24px solid transparent
-		position: absolute
-		@include at-breakpoint($mobile)
-			top: -36px
-			left: -28px
-		@include at-breakpoint($phablet)
-			top: -32px
-			left: -44px
-		@include at-breakpoint($pad)
-			top: 6px		
-			left: -94px
-		.ribbon-line
-			height: 44px
-			width: 48px
-			position: absolute
-			top: -22px
-			left: -16px
-			border: 1px dashed white
-			border-left: 0
-			border-right: 0
-	.ribbon-right
-		width: 0
-		height: 0
-		border: 24px solid darken($theme-color, 5%)
-		border-left: 32px solid darken($theme-color, 5%)
-		border-right: 24px solid transparent
-		position: absolute
-		@include at-breakpoint($mobile)
-			top: -36px
-			right: -28px
-		@include at-breakpoint($phablet)
-			top: -32px
-			right: -44px
-		@include at-breakpoint($pad)
-			top: 6px
-			right: -94px
-		.ribbon-line
-			height: 44px
-			width: 48px
-			position: absolute
-			top: -22px
-			right: -16px
-			border: 1px dashed white
-			border-left: 0
-			border-right: 0
-	.ribbon-title
-		height: 48px
-		background-color: $theme-color
-		position: absolute
-		z-index: 10
-		@include at-breakpoint($mobile)
-			top: -48px
-			left: 16px
-			right: 16px
-		@include at-breakpoint($phablet)
-			top: -44px
-			left: 0px
-			right: 0px
-		@include at-breakpoint($pad)
-			top: -12px
-			left: -50px
-			right: -50px
-
-		&:before, &:after
-			content: ""
-			width: 0
-			height: 0
-			border: 6px solid transparent
-			position: absolute
-			top: 48px
-			z-index: 1
-		&:before
-			border-top: 6px solid darken($theme-color, 25%)
-			border-right: 6px solid darken($theme-color, 25%)
-			left: 0
-		&:after
-			border-top: 6px solid darken($theme-color, 25%)
-			border-left: 6px solid darken($theme-color, 25%)
-			right: 0
-		.ribbon-title-line
-			z-index: 2
-			height: 44px
-			margin-top: 2px
-			text-align: center
-			line-height: 44px
-			font-size: 22px
-			color: white
-			border: 1px dashed white
-			border-left: 0
-			border-right: 0
-
-
 	label
 		font-size: 1em
 	input, select, textarea, .input-date
@@ -175,3 +78,98 @@ form
 			background-color: lighten(#e7dec7, 7%)
 		&:active
 			background-color: lighten(#e7dec7, 1%)
+.ribbon-left
+	width: 0
+	height: 0
+	border: 24px solid darken($theme-color, 5%)
+	border-right: 32px solid darken($theme-color, 5%)
+	border-left: 24px solid transparent
+	position: absolute
+	@include at-breakpoint($mobile)
+		top: -36px
+		left: -28px
+	@include at-breakpoint($phablet)
+		top: -32px
+		left: -44px
+	@include at-breakpoint($pad)
+		top: 6px		
+		left: -94px
+	.ribbon-line
+		height: 44px
+		width: 48px
+		position: absolute
+		top: -22px
+		left: -16px
+		border: 1px dashed white
+		border-left: 0
+		border-right: 0
+.ribbon-right
+	width: 0
+	height: 0
+	border: 24px solid darken($theme-color, 5%)
+	border-left: 32px solid darken($theme-color, 5%)
+	border-right: 24px solid transparent
+	position: absolute
+	@include at-breakpoint($mobile)
+		top: -36px
+		right: -28px
+	@include at-breakpoint($phablet)
+		top: -32px
+		right: -44px
+	@include at-breakpoint($pad)
+		top: 6px
+		right: -94px
+	.ribbon-line
+		height: 44px
+		width: 48px
+		position: absolute
+		top: -22px
+		right: -16px
+		border: 1px dashed white
+		border-left: 0
+		border-right: 0
+.ribbon-title
+	height: 48px
+	background-color: $theme-color
+	position: absolute
+	z-index: 10
+	@include at-breakpoint($mobile)
+		top: -48px
+		left: 16px
+		right: 16px
+	@include at-breakpoint($phablet)
+		top: -44px
+		left: 0px
+		right: 0px
+	@include at-breakpoint($pad)
+		top: -12px
+		left: -50px
+		right: -50px
+
+	&:before, &:after
+		content: ""
+		width: 0
+		height: 0
+		border: 6px solid transparent
+		position: absolute
+		top: 48px
+		z-index: 1
+	&:before
+		border-top: 6px solid darken($theme-color, 25%)
+		border-right: 6px solid darken($theme-color, 25%)
+		left: 0
+	&:after
+		border-top: 6px solid darken($theme-color, 25%)
+		border-left: 6px solid darken($theme-color, 25%)
+		right: 0
+.ribbon-title-line
+	z-index: 2
+	height: 44px
+	margin-top: 2px
+	text-align: center
+	line-height: 44px
+	font-size: 22px
+	color: white
+	border: 1px dashed white
+	border-left: 0
+	border-right: 0

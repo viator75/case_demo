@@ -2163,3 +2163,284 @@
 2014-08-06 12:29:56 overwrite stylesheets/screen.css 
 2014-08-06 12:30:47 overwrite stylesheets/screen.css 
 2014-08-06 12:32:14 overwrite stylesheets/screen.css 
+2014-08-06 12:50:02 overwrite stylesheets/screen.css 
+2014-08-06 12:50:12 overwrite stylesheets/screen.css 
+2014-08-06 12:50:16 overwrite stylesheets/screen.css 
+2014-08-06 12:50:27 overwrite stylesheets/screen.css 
+2014-08-06 12:50:33 overwrite stylesheets/screen.css 
+2014-08-06 12:50:46 overwrite stylesheets/screen.css 
+2014-08-06 12:50:57 overwrite stylesheets/screen.css 
+2014-08-06 12:52:44 overwrite stylesheets/screen.css 
+2014-08-06 12:53:20 overwrite stylesheets/screen.css 
+2014-08-06 15:27:28 overwrite stylesheets/screen.css 
+2014-08-06 15:29:53 overwrite stylesheets/screen.css 
+2014-08-06 15:30:13 overwrite stylesheets/screen.css 
+2014-08-06 15:30:39 overwrite stylesheets/screen.css 
+2014-08-06 15:30:55 overwrite stylesheets/screen.css 
+2014-08-06 15:31:44 overwrite stylesheets/screen.css 
+2014-08-06 15:36:19 identical stylesheets/screen.css 
+2014-08-06 15:36:21 overwrite stylesheets/screen.css 
+2014-08-06 15:36:37 overwrite stylesheets/screen.css 
+2014-08-06 15:36:49 overwrite stylesheets/screen.css 
+2014-08-06 15:41:21 overwrite stylesheets/screen.css 
+2014-08-06 15:42:27 overwrite stylesheets/screen.css 
+2014-08-06 15:42:32 overwrite stylesheets/screen.css 
+2014-08-06 15:42:36 overwrite stylesheets/screen.css 
+2014-08-06 15:42:41 overwrite stylesheets/screen.css 
+2014-08-06 15:42:49 overwrite stylesheets/screen.css 
+2014-08-06 15:48:56     error sass/screen.sass (Line 14: File to import not found or unreadable: bt.
+Load paths:
+  /Users/tough/Desktop/case_demo/dream/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-08-06 15:48:56 overwrite stylesheets/screen.css 
+2014-08-06 15:49:13     error sass/screen.sass (Line 14: File to import not found or unreadable: bt.
+Load paths:
+  /Users/tough/Desktop/case_demo/dream/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-08-06 15:49:13 overwrite stylesheets/screen.css 
+2014-08-06 15:49:24     error sass/screen.sass (Line 14: File to import not found or unreadable: bt.
+Load paths:
+  /Users/tough/Desktop/case_demo/dream/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-08-06 15:49:24 overwrite stylesheets/screen.css 
+2014-08-06 15:49:26     error sass/screen.sass (Line 14: File to import not found or unreadable: bt.
+Load paths:
+  /Users/tough/Desktop/case_demo/dream/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-08-06 15:49:26 overwrite stylesheets/screen.css 
+2014-08-06 15:49:31     error sass/screen.sass (Line 14: File to import not found or unreadable: bt.
+Load paths:
+  /Users/tough/Desktop/case_demo/dream/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-08-06 15:49:31 identical stylesheets/screen.css 
+2014-08-06 15:49:36     error sass/screen.sass (Line 14: File to import not found or unreadable: bt.
+Load paths:
+  /Users/tough/Desktop/case_demo/dream/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-08-06 15:49:36 identical stylesheets/screen.css 
+2014-08-06 15:49:38     error sass/screen.sass (Line 14: File to import not found or unreadable: bt.
+Load paths:
+  /Users/tough/Desktop/case_demo/dream/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-08-06 15:49:38 identical stylesheets/screen.css 
+2014-08-06 15:49:40     error sass/screen.sass (Line 14: File to import not found or unreadable: bt.
+Load paths:
+  /Users/tough/Desktop/case_demo/dream/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-08-06 15:49:40 identical stylesheets/screen.css 
+2014-08-06 15:49:46 overwrite stylesheets/screen.css 
+2014-08-06 15:56:41 overwrite stylesheets/screen.css 
+2014-08-06 15:57:35 overwrite stylesheets/screen.css 
+2014-08-06 15:57:37 overwrite stylesheets/screen.css 
+2014-08-06 15:57:48 overwrite stylesheets/screen.css 
+2014-08-06 15:57:59 overwrite stylesheets/screen.css 
+2014-08-06 15:59:43 overwrite stylesheets/screen.css 
+2014-08-06 16:00:15 overwrite stylesheets/screen.css 
+2014-08-06 16:00:25 overwrite stylesheets/screen.css 
+2014-08-06 16:00:39     error sass/screen.sass (Line 28 of sass/_sider.scss: Invalid CSS after "	z-index": expected ";", was ": 9999;")
+2014-08-06 16:00:39 overwrite stylesheets/screen.css 
+2014-08-06 16:00:41 overwrite stylesheets/screen.css 
+2014-08-06 16:00:43 identical stylesheets/screen.css 
+2014-08-06 16:01:00 overwrite stylesheets/screen.css 
+2014-08-06 16:01:05 overwrite stylesheets/screen.css 
+2014-08-06 16:03:03 overwrite stylesheets/screen.css 
+2014-08-06 16:03:14 overwrite stylesheets/screen.css 
+2014-08-06 16:03:20 identical stylesheets/screen.css 
+2014-08-06 16:03:31 overwrite stylesheets/screen.css 
+2014-08-06 16:03:36 identical stylesheets/screen.css 
+2014-08-06 16:03:45 overwrite stylesheets/screen.css 
+2014-08-06 16:03:50 overwrite stylesheets/screen.css 
+2014-08-06 16:04:35 overwrite stylesheets/screen.css 
+2014-08-06 16:05:33 overwrite stylesheets/screen.css 
+2014-08-06 16:06:08 overwrite stylesheets/screen.css 
+2014-08-06 16:06:29 overwrite stylesheets/screen.css 
+2014-08-06 16:06:49 overwrite stylesheets/screen.css 
+2014-08-06 16:07:19 overwrite stylesheets/screen.css 
+2014-08-06 16:07:40 overwrite stylesheets/screen.css 
+2014-08-06 16:07:53 overwrite stylesheets/screen.css 
+2014-08-06 16:08:14 overwrite stylesheets/screen.css 
+2014-08-06 16:08:20 overwrite stylesheets/screen.css 
+2014-08-06 16:08:29 overwrite stylesheets/screen.css 
+2014-08-06 16:08:34 overwrite stylesheets/screen.css 
+2014-08-06 16:09:36 overwrite stylesheets/screen.css 
+2014-08-06 16:09:42 overwrite stylesheets/screen.css 
+2014-08-06 16:09:59 overwrite stylesheets/screen.css 
+2014-08-06 16:10:26 overwrite stylesheets/screen.css 
+2014-08-06 16:10:40 overwrite stylesheets/screen.css 
+2014-08-06 16:10:52 overwrite stylesheets/screen.css 
+2014-08-06 16:11:09 overwrite stylesheets/screen.css 
+2014-08-06 16:11:31 overwrite stylesheets/screen.css 
+2014-08-06 16:11:42 overwrite stylesheets/screen.css 
+2014-08-06 16:12:05 overwrite stylesheets/screen.css 
+2014-08-06 16:12:19 overwrite stylesheets/screen.css 
+2014-08-06 16:12:25 overwrite stylesheets/screen.css 
+2014-08-06 16:12:40 overwrite stylesheets/screen.css 
+2014-08-06 16:12:45 overwrite stylesheets/screen.css 
+2014-08-06 16:13:00 overwrite stylesheets/screen.css 
+2014-08-06 16:14:39 overwrite stylesheets/screen.css 
+2014-08-06 16:14:54 overwrite stylesheets/screen.css 
+2014-08-06 16:14:59 overwrite stylesheets/screen.css 
+2014-08-06 16:15:46 overwrite stylesheets/screen.css 
+2014-08-06 16:16:26 overwrite stylesheets/screen.css 
+2014-08-06 16:16:51 overwrite stylesheets/screen.css 
+2014-08-06 16:16:57 overwrite stylesheets/screen.css 
+2014-08-06 16:17:52 overwrite stylesheets/screen.css 
+2014-08-06 16:18:48 overwrite stylesheets/screen.css 
+2014-08-06 16:19:01 overwrite stylesheets/screen.css 
+2014-08-06 16:19:15 overwrite stylesheets/screen.css 
+2014-08-06 16:19:18 overwrite stylesheets/screen.css 
+2014-08-06 16:19:23 overwrite stylesheets/screen.css 
+2014-08-06 16:19:54 overwrite stylesheets/screen.css 
+2014-08-06 16:20:20 overwrite stylesheets/screen.css 
+2014-08-06 16:20:50 overwrite stylesheets/screen.css 
+2014-08-06 16:20:57 overwrite stylesheets/screen.css 
+2014-08-06 16:21:05 overwrite stylesheets/screen.css 
+2014-08-06 16:21:30 overwrite stylesheets/screen.css 
+2014-08-06 16:21:44 overwrite stylesheets/screen.css 
+2014-08-06 16:22:48 overwrite stylesheets/screen.css 
+2014-08-06 16:22:54 overwrite stylesheets/screen.css 
+2014-08-06 16:23:14 overwrite stylesheets/screen.css 
+2014-08-06 16:23:28 overwrite stylesheets/screen.css 
+2014-08-06 16:23:46 overwrite stylesheets/screen.css 
+2014-08-06 16:24:24 overwrite stylesheets/screen.css 
+2014-08-06 16:24:30 overwrite stylesheets/screen.css 
+2014-08-06 16:25:16 overwrite stylesheets/screen.css 
+2014-08-06 16:25:31 overwrite stylesheets/screen.css 
+2014-08-06 16:25:58     error sass/screen.sass (Line 215 of sass/_sider.scss: Invalid CSS after "... $helper-color)": expected "}", was "color: #fff;")
+2014-08-06 16:25:58 overwrite stylesheets/screen.css 
+2014-08-06 16:26:04 overwrite stylesheets/screen.css 
+2014-08-06 16:26:14 overwrite stylesheets/screen.css 
+2014-08-06 16:27:04 overwrite stylesheets/screen.css 
+2014-08-06 16:27:15 overwrite stylesheets/screen.css 
+2014-08-06 16:27:29 overwrite stylesheets/screen.css 
+2014-08-06 16:31:21 overwrite stylesheets/screen.css 
+2014-08-06 16:31:43 overwrite stylesheets/screen.css 
+2014-08-06 16:31:45 overwrite stylesheets/screen.css 
+2014-08-06 16:32:04     error sass/screen.sass (Line 229 of sass/_sider.scss: Invalid CSS after "	color": expected ";", was ": white;")
+2014-08-06 16:32:04 overwrite stylesheets/screen.css 
+2014-08-06 16:32:07 overwrite stylesheets/screen.css 
+2014-08-06 16:32:35     error sass/screen.sass (Line 175 of sass/_sider.scss: Invalid CSS after "	width": expected ";", was ": 60px;")
+2014-08-06 16:32:35 overwrite stylesheets/screen.css 
+2014-08-06 16:32:38 overwrite stylesheets/screen.css 
+2014-08-06 16:35:28 identical stylesheets/screen.css 
+2014-08-06 16:36:09 overwrite stylesheets/screen.css 
+2014-08-06 16:36:16 overwrite stylesheets/screen.css 
+2014-08-06 16:36:22 overwrite stylesheets/screen.css 
+2014-08-06 16:36:26 identical stylesheets/screen.css 
+2014-08-06 16:36:30 overwrite stylesheets/screen.css 
+2014-08-06 16:36:35 overwrite stylesheets/screen.css 
+2014-08-06 16:36:40 overwrite stylesheets/screen.css 
+2014-08-06 16:36:44 overwrite stylesheets/screen.css 
+2014-08-06 16:37:09 overwrite stylesheets/screen.css 
+2014-08-06 16:37:45 overwrite stylesheets/screen.css 
+2014-08-06 16:37:56 overwrite stylesheets/screen.css 
+2014-08-06 16:38:08 overwrite stylesheets/screen.css 
+2014-08-06 16:38:22 overwrite stylesheets/screen.css 
+2014-08-06 16:38:39 overwrite stylesheets/screen.css 
+2014-08-06 16:39:02 overwrite stylesheets/screen.css 
+2014-08-06 16:39:50 overwrite stylesheets/screen.css 
+2014-08-06 16:40:12 overwrite stylesheets/screen.css 
+2014-08-06 16:40:21 overwrite stylesheets/screen.css 
+2014-08-06 16:40:27 overwrite stylesheets/screen.css 
+2014-08-06 16:40:33 overwrite stylesheets/screen.css 
+2014-08-06 16:41:16 overwrite stylesheets/screen.css 
+2014-08-06 16:41:26 overwrite stylesheets/screen.css 
+2014-08-06 16:41:38 overwrite stylesheets/screen.css 
+2014-08-06 16:41:48 overwrite stylesheets/screen.css 
+2014-08-06 16:41:53 overwrite stylesheets/screen.css 
+2014-08-06 16:42:01 overwrite stylesheets/screen.css 
+2014-08-06 16:42:07 overwrite stylesheets/screen.css 
+2014-08-06 16:42:21 overwrite stylesheets/screen.css 
+2014-08-06 16:42:28 overwrite stylesheets/screen.css 
+2014-08-06 16:42:35 overwrite stylesheets/screen.css 
+2014-08-06 16:42:45 overwrite stylesheets/screen.css 
+2014-08-06 16:42:54 overwrite stylesheets/screen.css 
+2014-08-06 16:43:06 overwrite stylesheets/screen.css 
+2014-08-06 16:43:14 overwrite stylesheets/screen.css 
+2014-08-06 16:43:19 overwrite stylesheets/screen.css 
+2014-08-06 16:43:43 overwrite stylesheets/screen.css 
+2014-08-06 16:43:47 identical stylesheets/screen.css 
+2014-08-06 16:43:49 identical stylesheets/screen.css 
+2014-08-06 16:43:52 overwrite stylesheets/screen.css 
+2014-08-06 16:43:54 identical stylesheets/screen.css 
+2014-08-06 16:44:43 overwrite stylesheets/screen.css 
+2014-08-06 16:44:52 overwrite stylesheets/screen.css 
+2014-08-06 16:44:59 overwrite stylesheets/screen.css 
+2014-08-06 16:45:08 overwrite stylesheets/screen.css 
+2014-08-06 16:45:46 overwrite stylesheets/screen.css 
+2014-08-06 16:50:53 overwrite stylesheets/screen.css 
+2014-08-06 16:51:29 overwrite stylesheets/screen.css 
+2014-08-06 16:51:37 overwrite stylesheets/screen.css 
+2014-08-06 16:51:48 overwrite stylesheets/screen.css 

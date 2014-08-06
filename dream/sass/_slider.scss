@@ -79,27 +79,8 @@
 
 
 .GICarousel, .GI_C_wrapper {
-  @include at-breakpoint($mobile) {
-    // height: 240px;
-    border-top: 1px solid #ddd6bf;
-    border-bottom: 1px solid #ddd6bf;
-  }
-  @include at-breakpoint($phablet) {
-    // height: 320px;
-    // border: 1px solid #ddd6bf;
-  }
-  @include at-breakpoint($pad) {
-    // height: 380px;
-    // border: 1px solid #ddd6bf;
-  }
-  @include at-breakpoint($laptop) {
-    // height: 480px;
-    // border: 1px solid #ddd6bf;
-  }
-  @include at-breakpoint($desktop) {
-    // height: 540px;
-    // border: 1px solid #ddd6bf;
-  }
+  border-top: 1px solid #ddd6bf;
+  border-bottom: 1px solid #ddd6bf;
   width: 100%;
   overflow: hidden;
   top: 0;
