@@ -35,7 +35,7 @@ $font-en-2: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Hel
 	@include box-sizing(border-box);
 }
 
-p, a, li, h1, h2, h3, label{
+p, a, li, h1, h2, h3, label, #ss-submit, #ss-q-title{
 	color: #343434;
 	font-family: $font-zh;
 }
