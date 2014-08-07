@@ -1459,6 +1459,7 @@ footer .footer-en, footer .footer-zh {
   margin-left: 8px;
 }
 .dct-place li a {
+  font-size: 14px;
   display: block;
   padding: 8px 12px;
   border: 1px solid #53b1ba;
@@ -1475,9 +1476,16 @@ footer .footer-en, footer .footer-zh {
   background-color: #307177;
 }
 
+.break {
+  display: block;
+}
+
 .dct-place-info {
   line-height: 1.5;
-  text-align: left;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  font-size: 14px;
 }
 
 .dct-reservation {
@@ -1579,7 +1587,7 @@ body.remodal_active .remodal-overlay {
 .remodal {
   width: 100%;
   min-height: 100%;
-  padding: 35px 48px;
+  padding: 36px 3%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -1703,6 +1711,18 @@ body.remodal_active .remodal {
     min-height: 0;
     -webkit-border-radius: 6px;
     border-radius: 6px;
+  }
+
+  .dct-place-info {
+    line-height: 1.5;
+    text-align: left;
+    max-width: 392px;
+    margin: 0 auto;
+    font-size: 1em;
+  }
+
+  .break {
+    display: none;
   }
 }
 .bt-menu {
