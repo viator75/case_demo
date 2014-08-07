@@ -847,6 +847,7 @@ body {
   border-bottom: 3px solid #d0be91;
   overflow: hidden;
   display: none;
+  background-color: #393939;
 }
 @media (min-width: 741px) {
   .video-holder {
