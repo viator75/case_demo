@@ -2502,3 +2502,18 @@ Load paths:
 2014-08-07 16:02:03 overwrite stylesheets/screen.css 
 2014-08-07 16:02:13 overwrite stylesheets/screen.css 
 2014-08-07 16:02:21 overwrite stylesheets/screen.css 
+2014-08-07 16:04:57 overwrite stylesheets/screen.css 
+2014-08-07 16:06:01     error sass/screen.sass (Line 53 of sass/_sider.scss: Invalid CSS after "	cursor": expected ";", was ": pointer;")
+2014-08-07 16:06:01 overwrite stylesheets/screen.css 
+2014-08-07 16:06:08 overwrite stylesheets/screen.css 
+2014-08-07 16:06:38     error sass/screen.sass (Line 53 of sass/_sider.scss: Invalid CSS after "	background-color": expected ";", was ": #d4d4d4;")
+2014-08-07 16:06:38 overwrite stylesheets/screen.css 
+2014-08-07 16:06:45 overwrite stylesheets/screen.css 
+2014-08-07 16:09:02 overwrite stylesheets/screen.css 
+2014-08-07 16:09:14 overwrite stylesheets/screen.css 
+2014-08-07 16:09:27 overwrite stylesheets/screen.css 
+2014-08-07 16:09:40 overwrite stylesheets/screen.css 
+2014-08-07 16:09:49 overwrite stylesheets/screen.css 
+2014-08-07 16:09:59 overwrite stylesheets/screen.css 
+2014-08-07 16:10:39 overwrite stylesheets/screen.css 
+2014-08-07 16:11:46 overwrite stylesheets/screen.css 
