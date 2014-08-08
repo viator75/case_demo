@@ -894,14 +894,9 @@ video {
     background-image: url(../images/line-pattern.png);
     background-repeat: repeat;
     background-size: 24px;
+    background-position: center center;
     opacity: 0.3;
     z-index: 1;
-  }
-}
-
-@-moz-document url-prefix() {
-  .video-cover:after {
-    display: none;
   }
 }
 
