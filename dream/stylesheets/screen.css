@@ -1445,6 +1445,14 @@ footer .footer-en, footer .footer-zh {
 .dct-map {
   width: 100%;
   margin: 0 auto;
+  position: relative;
+  display: none;
+}
+
+.dct-map-mini {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
 }
 
 .dct-place {
@@ -1471,11 +1479,14 @@ footer .footer-en, footer .footer-zh {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
+.dct-place li a + i {
+  display: none;
+}
 .dct-place li a:hover {
   background-color: #53b1ba;
 }
-.dct-place li a:active {
-  background-color: #307177;
+.dct-place li a:hover + i {
+  display: none;
 }
 
 .break {
@@ -1713,6 +1724,7 @@ body.remodal_active .remodal {
     min-height: 0;
     -webkit-border-radius: 6px;
     border-radius: 6px;
+    overflow: hidden;
   }
 
   .dct-place-info {
@@ -1723,8 +1735,43 @@ body.remodal_active .remodal {
     font-size: 1em;
   }
 
+  .dct-place li a + i {
+    position: absolute;
+  }
+  .dct-place li a:hover + i {
+    display: block;
+  }
+  .dct-place li a:hover + .plaza-position {
+    top: 17%;
+    left: 37%;
+    color: #53b1ba;
+  }
+  .dct-place li a:hover + .fork1 {
+    top: 24%;
+    left: 32%;
+    color: #53b1ba;
+  }
+  .dct-place li a:hover + .fork2 {
+    top: 14%;
+    left: 52%;
+    color: #53b1ba;
+  }
+  .dct-place li a:active {
+    background-color: #307177;
+  }
+
   .break {
     display: none;
+  }
+
+  .dct-map-mini {
+    width: 100%;
+    margin: 0 auto;
+    display: none;
+  }
+
+  .dct-map {
+    display: block;
   }
 }
 .bt-menu {

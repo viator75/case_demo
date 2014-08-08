@@ -1,6 +1,13 @@
 .dct-map{
   width: 100%;
   margin: 0 auto;
+  position: relative;
+  display: none;
+}
+.dct-map-mini{
+  width: 100%;
+  margin: 0 auto;
+  display: block;
 }
 .dct-place{
   width: 100%;
@@ -14,11 +21,14 @@
       padding: 8px 12px;
       border: 1px solid $theme-color;
       @include border-radius(3px);
+       + i{
+        display: none;
+      }
       &:hover{
         background-color: $theme-color;
-      }
-      &:active{
-        background-color: darken($theme-color, 20%);
+        + i{
+          display: none;
+        }
       }
     }
   }
@@ -253,6 +263,7 @@ body.remodal_active .remodal {
     min-height: 0;
     -webkit-border-radius: 6px;
     border-radius: 6px;
+    overflow: hidden;
   }
   .dct-place-info{
     line-height: 1.5;
@@ -261,7 +272,47 @@ body.remodal_active .remodal {
     margin: 0 auto;
     font-size: 1em;
   }
+  .dct-place{
+    li{
+      a{
+         + i{
+          position: absolute;
+        }
+        &:hover{
+          + i{
+            display: block;
+          }
+          + .plaza-position{
+            top: 17%;
+            left: 37%;
+            color: $theme-color;
+          }
+          + .fork1{
+            top: 24%;
+            left: 32%;
+            color: $theme-color;
+          }
+          + .fork2{
+            top: 14%;
+            left: 52%;
+            color: $theme-color;
+          }
+        }
+        &:active{
+          background-color: darken($theme-color, 20%);
+        }
+      }
+    }
+  }
   .break{
     display: none;
+  }
+  .dct-map-mini{
+    width: 100%;
+    margin: 0 auto;
+    display: none;
+  }
+  .dct-map{
+    display: block;
   }
 }
