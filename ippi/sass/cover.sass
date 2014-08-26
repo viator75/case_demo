@@ -5,6 +5,7 @@
 @import susy
 @import compass/reset
 @import compass/css3
+@import animation
 $all-width: 100%
 h1, h2, p, a
 	color: rgba(255,255,255,1)
@@ -29,8 +30,8 @@ a
 .background-show
 	position: fixed
 	z-index: 10
-	width: 103%
-	min-width: 103%
+	width: 100%
+	min-width: 100%
 	height: auto
 	min-height: 103%
 	margin: -10px
@@ -95,18 +96,17 @@ a
 
 
 .course
-	display: table
-	position: fixed
-	z-index: 20
+	position: absolute
+	top: 40%
+	left: 0
+	right: 0
+	margin: 0 auto
 	height: auto
 	min-height: 100%
 	width: 100%
-	// padding: 20% 0
 	.center-button
-		display: table-cell
 		vertical-align: middle
 		a
-			// font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "MingLiU", "微軟正黑體"
 			color: white
 			font-size: 1.8em
 			display: block
@@ -132,21 +132,7 @@ a
 				text-align: center
 
 
-@-webkit-keyframes click-me
-	0%
-		background: rgba(255,255,255,0.1)
-	50%
-		background: rgba(255,255,255,0.3)
-	100%
-		background: rgba(255,255,255,0.1)
 
-@keyframes click-me
-	0%
-		background: rgba(255,255,255,0.1)
-	50%
-		background: rgba(255,255,255,0.3)
-	100%
-		background: rgba(255,255,255,0.1)
 
 // -------------------
 // Contact
@@ -159,7 +145,6 @@ a
 	position: fixed
 	bottom: 14px
 	right: 16px
-	z-index: 30
 
 
 a, p
@@ -189,7 +174,7 @@ i
 .sticky
 	position: absolute
 	bottom: 0
-	z-index: 20
+	z-index: 10
 	width: 100%
 .germany-black, .germany-yellow, .germany-red
 	float: left
@@ -206,18 +191,17 @@ i
 	background-color: rgba(254,206,47,0.5)
 	border-top: 2px solid rgba(254,206,47,1)
 
+
+
+
 @media screen and (max-width: 580px)
 	.background-show
 		position: fixed
 		z-index: 10
-		width: 120%
-		min-width: 110%
+		width: 100%
+		min-width: 100%
 		height: auto
 		min-height: 120%
-		margin: -8px
-		+filter(blur(3px) grayscale(5%))
-	.wrapper
-		background-color: rgba(0,0,0,0.4)
 	.logo
 		float: left
 		width: 84px
@@ -226,7 +210,7 @@ i
 	.ippi
 		float: left
 		margin: 12px 0 0 10px
-		font-size: 0.6em
+		font-size: 0.8em
 		line-height: 1.2em
 
 	.course
@@ -267,10 +251,10 @@ i
 	.germany-black, .germany-yellow, .germany-red
 		height: 3px
 	.germany-black
-		background-color: rgba(0,0,0,0.6)
+		background-color: rgba(0,0,0,0.5)
 		border-top: 2px solid rgba(0,0,0,1)
 	.germany-red
-		background-color: rgba(220,10,23, 0.5)
+		background-color: rgba(220,10,23, 0.7)
 		border-top: 2px solid rgba(220,10,23,1)
 	.germany-yellow
 		background-color: rgba(254,206,47,0.5)
