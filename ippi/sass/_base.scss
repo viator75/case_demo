@@ -1,7 +1,7 @@
 @import "susy";
 $column-width   : 60px;
-$gutter-width   : 20px;
-$grid-padding   : 0;
+$gutter-width   : 16px;
+$grid-padding   : 8px;
 $container-style: static;
 
 $mobile    : 4 ;
@@ -11,10 +11,16 @@ $laptop    : 12 ;
 
 // /* -------------------------------------------------------------------------*/
 // /* Layout */
+*{
+	@include box-sizing(border-box);
+}
+section{
+	clear: both;
+	height: auto;
+}
 
 .container {
-  @include container($mobile, $phablet, $pad, $laptop);
-  @include susy-grid-background;
+	@include container($mobile, $phablet, $pad, $laptop);
 	margin: 0 auto;
-	padding: 0;
+	padding: 20px;
 }
