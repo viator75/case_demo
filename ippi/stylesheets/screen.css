@@ -1,19 +1,75 @@
-/* -------------------------------------------------------------------------*/
-/* Layout */
-/* line 9, ../sass/screen.scss */
+/* line 17, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 15, ../sass/_base.scss */
 .container {
-  *zoom: 1;
-  max-width: 59em;
-  _width: 59em;
-  padding-left: 1em;
-  padding-right: 1em;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(6.77966%, rgba(100, 100, 225, 0.25)), color-stop(6.77966%, rgba(0, 0, 0, 0)), color-stop(8.47458%, rgba(0, 0, 0, 0)), color-stop(8.47458%, rgba(100, 100, 225, 0.25)), color-stop(15.25424%, rgba(100, 100, 225, 0.25)), color-stop(15.25424%, rgba(0, 0, 0, 0)), color-stop(16.94915%, rgba(0, 0, 0, 0)), color-stop(16.94915%, rgba(100, 100, 225, 0.25)), color-stop(23.72881%, rgba(100, 100, 225, 0.25)), color-stop(23.72881%, rgba(0, 0, 0, 0)), color-stop(25.42373%, rgba(0, 0, 0, 0)), color-stop(25.42373%, rgba(100, 100, 225, 0.25)), color-stop(32.20339%, rgba(100, 100, 225, 0.25)), color-stop(32.20339%, rgba(0, 0, 0, 0)), color-stop(33.89831%, rgba(0, 0, 0, 0)), color-stop(33.89831%, rgba(100, 100, 225, 0.25)), color-stop(40.67797%, rgba(100, 100, 225, 0.25)), color-stop(40.67797%, rgba(0, 0, 0, 0)), color-stop(42.37288%, rgba(0, 0, 0, 0)), color-stop(42.37288%, rgba(100, 100, 225, 0.25)), color-stop(49.15254%, rgba(100, 100, 225, 0.25)), color-stop(49.15254%, rgba(0, 0, 0, 0)), color-stop(50.84746%, rgba(0, 0, 0, 0)), color-stop(50.84746%, rgba(100, 100, 225, 0.25)), color-stop(57.62712%, rgba(100, 100, 225, 0.25)), color-stop(57.62712%, rgba(0, 0, 0, 0)), color-stop(59.32203%, rgba(0, 0, 0, 0)), color-stop(59.32203%, rgba(100, 100, 225, 0.25)), color-stop(66.10169%, rgba(100, 100, 225, 0.25)), color-stop(66.10169%, rgba(0, 0, 0, 0)), color-stop(67.79661%, rgba(0, 0, 0, 0)), color-stop(67.79661%, rgba(100, 100, 225, 0.25)), color-stop(74.57627%, rgba(100, 100, 225, 0.25)), color-stop(74.57627%, rgba(0, 0, 0, 0)), color-stop(76.27119%, rgba(0, 0, 0, 0)), color-stop(76.27119%, rgba(100, 100, 225, 0.25)), color-stop(83.05085%, rgba(100, 100, 225, 0.25)), color-stop(83.05085%, rgba(0, 0, 0, 0)), color-stop(84.74576%, rgba(0, 0, 0, 0)), color-stop(84.74576%, rgba(100, 100, 225, 0.25)), color-stop(91.52542%, rgba(100, 100, 225, 0.25)), color-stop(91.52542%, rgba(0, 0, 0, 0)), color-stop(93.22034%, rgba(0, 0, 0, 0)), color-stop(93.22034%, rgba(100, 100, 225, 0.25)), color-stop(100.0%, rgba(100, 100, 225, 0.25)), color-stop(100.0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.77966%, rgba(0, 0, 0, 0) 6.77966%, rgba(0, 0, 0, 0) 8.47458%, rgba(100, 100, 225, 0.25) 8.47458%, rgba(100, 100, 225, 0.25) 15.25424%, rgba(0, 0, 0, 0) 15.25424%, rgba(0, 0, 0, 0) 16.94915%, rgba(100, 100, 225, 0.25) 16.94915%, rgba(100, 100, 225, 0.25) 23.72881%, rgba(0, 0, 0, 0) 23.72881%, rgba(0, 0, 0, 0) 25.42373%, rgba(100, 100, 225, 0.25) 25.42373%, rgba(100, 100, 225, 0.25) 32.20339%, rgba(0, 0, 0, 0) 32.20339%, rgba(0, 0, 0, 0) 33.89831%, rgba(100, 100, 225, 0.25) 33.89831%, rgba(100, 100, 225, 0.25) 40.67797%, rgba(0, 0, 0, 0) 40.67797%, rgba(0, 0, 0, 0) 42.37288%, rgba(100, 100, 225, 0.25) 42.37288%, rgba(100, 100, 225, 0.25) 49.15254%, rgba(0, 0, 0, 0) 49.15254%, rgba(0, 0, 0, 0) 50.84746%, rgba(100, 100, 225, 0.25) 50.84746%, rgba(100, 100, 225, 0.25) 57.62712%, rgba(0, 0, 0, 0) 57.62712%, rgba(0, 0, 0, 0) 59.32203%, rgba(100, 100, 225, 0.25) 59.32203%, rgba(100, 100, 225, 0.25) 66.10169%, rgba(0, 0, 0, 0) 66.10169%, rgba(0, 0, 0, 0) 67.79661%, rgba(100, 100, 225, 0.25) 67.79661%, rgba(100, 100, 225, 0.25) 74.57627%, rgba(0, 0, 0, 0) 74.57627%, rgba(0, 0, 0, 0) 76.27119%, rgba(100, 100, 225, 0.25) 76.27119%, rgba(100, 100, 225, 0.25) 83.05085%, rgba(0, 0, 0, 0) 83.05085%, rgba(0, 0, 0, 0) 84.74576%, rgba(100, 100, 225, 0.25) 84.74576%, rgba(100, 100, 225, 0.25) 91.52542%, rgba(0, 0, 0, 0) 91.52542%, rgba(0, 0, 0, 0) 93.22034%, rgba(100, 100, 225, 0.25) 93.22034%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
-  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.77966%, rgba(0, 0, 0, 0) 6.77966%, rgba(0, 0, 0, 0) 8.47458%, rgba(100, 100, 225, 0.25) 8.47458%, rgba(100, 100, 225, 0.25) 15.25424%, rgba(0, 0, 0, 0) 15.25424%, rgba(0, 0, 0, 0) 16.94915%, rgba(100, 100, 225, 0.25) 16.94915%, rgba(100, 100, 225, 0.25) 23.72881%, rgba(0, 0, 0, 0) 23.72881%, rgba(0, 0, 0, 0) 25.42373%, rgba(100, 100, 225, 0.25) 25.42373%, rgba(100, 100, 225, 0.25) 32.20339%, rgba(0, 0, 0, 0) 32.20339%, rgba(0, 0, 0, 0) 33.89831%, rgba(100, 100, 225, 0.25) 33.89831%, rgba(100, 100, 225, 0.25) 40.67797%, rgba(0, 0, 0, 0) 40.67797%, rgba(0, 0, 0, 0) 42.37288%, rgba(100, 100, 225, 0.25) 42.37288%, rgba(100, 100, 225, 0.25) 49.15254%, rgba(0, 0, 0, 0) 49.15254%, rgba(0, 0, 0, 0) 50.84746%, rgba(100, 100, 225, 0.25) 50.84746%, rgba(100, 100, 225, 0.25) 57.62712%, rgba(0, 0, 0, 0) 57.62712%, rgba(0, 0, 0, 0) 59.32203%, rgba(100, 100, 225, 0.25) 59.32203%, rgba(100, 100, 225, 0.25) 66.10169%, rgba(0, 0, 0, 0) 66.10169%, rgba(0, 0, 0, 0) 67.79661%, rgba(100, 100, 225, 0.25) 67.79661%, rgba(100, 100, 225, 0.25) 74.57627%, rgba(0, 0, 0, 0) 74.57627%, rgba(0, 0, 0, 0) 76.27119%, rgba(100, 100, 225, 0.25) 76.27119%, rgba(100, 100, 225, 0.25) 83.05085%, rgba(0, 0, 0, 0) 83.05085%, rgba(0, 0, 0, 0) 84.74576%, rgba(100, 100, 225, 0.25) 84.74576%, rgba(100, 100, 225, 0.25) 91.52542%, rgba(0, 0, 0, 0) 91.52542%, rgba(0, 0, 0, 0) 93.22034%, rgba(100, 100, 225, 0.25) 93.22034%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.77966%, rgba(0, 0, 0, 0) 6.77966%, rgba(0, 0, 0, 0) 8.47458%, rgba(100, 100, 225, 0.25) 8.47458%, rgba(100, 100, 225, 0.25) 15.25424%, rgba(0, 0, 0, 0) 15.25424%, rgba(0, 0, 0, 0) 16.94915%, rgba(100, 100, 225, 0.25) 16.94915%, rgba(100, 100, 225, 0.25) 23.72881%, rgba(0, 0, 0, 0) 23.72881%, rgba(0, 0, 0, 0) 25.42373%, rgba(100, 100, 225, 0.25) 25.42373%, rgba(100, 100, 225, 0.25) 32.20339%, rgba(0, 0, 0, 0) 32.20339%, rgba(0, 0, 0, 0) 33.89831%, rgba(100, 100, 225, 0.25) 33.89831%, rgba(100, 100, 225, 0.25) 40.67797%, rgba(0, 0, 0, 0) 40.67797%, rgba(0, 0, 0, 0) 42.37288%, rgba(100, 100, 225, 0.25) 42.37288%, rgba(100, 100, 225, 0.25) 49.15254%, rgba(0, 0, 0, 0) 49.15254%, rgba(0, 0, 0, 0) 50.84746%, rgba(100, 100, 225, 0.25) 50.84746%, rgba(100, 100, 225, 0.25) 57.62712%, rgba(0, 0, 0, 0) 57.62712%, rgba(0, 0, 0, 0) 59.32203%, rgba(100, 100, 225, 0.25) 59.32203%, rgba(100, 100, 225, 0.25) 66.10169%, rgba(0, 0, 0, 0) 66.10169%, rgba(0, 0, 0, 0) 67.79661%, rgba(100, 100, 225, 0.25) 67.79661%, rgba(100, 100, 225, 0.25) 74.57627%, rgba(0, 0, 0, 0) 74.57627%, rgba(0, 0, 0, 0) 76.27119%, rgba(100, 100, 225, 0.25) 76.27119%, rgba(100, 100, 225, 0.25) 83.05085%, rgba(0, 0, 0, 0) 83.05085%, rgba(0, 0, 0, 0) 84.74576%, rgba(100, 100, 225, 0.25) 84.74576%, rgba(100, 100, 225, 0.25) 91.52542%, rgba(0, 0, 0, 0) 91.52542%, rgba(0, 0, 0, 0) 93.22034%, rgba(100, 100, 225, 0.25) 93.22034%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
-  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.77966%, rgba(0, 0, 0, 0) 6.77966%, rgba(0, 0, 0, 0) 8.47458%, rgba(100, 100, 225, 0.25) 8.47458%, rgba(100, 100, 225, 0.25) 15.25424%, rgba(0, 0, 0, 0) 15.25424%, rgba(0, 0, 0, 0) 16.94915%, rgba(100, 100, 225, 0.25) 16.94915%, rgba(100, 100, 225, 0.25) 23.72881%, rgba(0, 0, 0, 0) 23.72881%, rgba(0, 0, 0, 0) 25.42373%, rgba(100, 100, 225, 0.25) 25.42373%, rgba(100, 100, 225, 0.25) 32.20339%, rgba(0, 0, 0, 0) 32.20339%, rgba(0, 0, 0, 0) 33.89831%, rgba(100, 100, 225, 0.25) 33.89831%, rgba(100, 100, 225, 0.25) 40.67797%, rgba(0, 0, 0, 0) 40.67797%, rgba(0, 0, 0, 0) 42.37288%, rgba(100, 100, 225, 0.25) 42.37288%, rgba(100, 100, 225, 0.25) 49.15254%, rgba(0, 0, 0, 0) 49.15254%, rgba(0, 0, 0, 0) 50.84746%, rgba(100, 100, 225, 0.25) 50.84746%, rgba(100, 100, 225, 0.25) 57.62712%, rgba(0, 0, 0, 0) 57.62712%, rgba(0, 0, 0, 0) 59.32203%, rgba(100, 100, 225, 0.25) 59.32203%, rgba(100, 100, 225, 0.25) 66.10169%, rgba(0, 0, 0, 0) 66.10169%, rgba(0, 0, 0, 0) 67.79661%, rgba(100, 100, 225, 0.25) 67.79661%, rgba(100, 100, 225, 0.25) 74.57627%, rgba(0, 0, 0, 0) 74.57627%, rgba(0, 0, 0, 0) 76.27119%, rgba(100, 100, 225, 0.25) 76.27119%, rgba(100, 100, 225, 0.25) 83.05085%, rgba(0, 0, 0, 0) 83.05085%, rgba(0, 0, 0, 0) 84.74576%, rgba(100, 100, 225, 0.25) 84.74576%, rgba(100, 100, 225, 0.25) 91.52542%, rgba(0, 0, 0, 0) 91.52542%, rgba(0, 0, 0, 0) 93.22034%, rgba(100, 100, 225, 0.25) 93.22034%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -webkit-gradient(linear, 0% 50%, 912 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(6.57895%, rgba(100, 100, 225, 0.25)), color-stop(6.57895%, rgba(0, 0, 0, 0)), color-stop(8.33333%, rgba(0, 0, 0, 0)), color-stop(8.33333%, rgba(100, 100, 225, 0.25)), color-stop(14.91228%, rgba(100, 100, 225, 0.25)), color-stop(14.91228%, rgba(0, 0, 0, 0)), color-stop(16.66667%, rgba(0, 0, 0, 0)), color-stop(16.66667%, rgba(100, 100, 225, 0.25)), color-stop(23.24561%, rgba(100, 100, 225, 0.25)), color-stop(23.24561%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(100, 100, 225, 0.25)), color-stop(31.57895%, rgba(100, 100, 225, 0.25)), color-stop(31.57895%, rgba(0, 0, 0, 0)), color-stop(33.33333%, rgba(0, 0, 0, 0)), color-stop(33.33333%, rgba(100, 100, 225, 0.25)), color-stop(39.91228%, rgba(100, 100, 225, 0.25)), color-stop(39.91228%, rgba(0, 0, 0, 0)), color-stop(41.66667%, rgba(0, 0, 0, 0)), color-stop(41.66667%, rgba(100, 100, 225, 0.25)), color-stop(48.24561%, rgba(100, 100, 225, 0.25)), color-stop(48.24561%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(100, 100, 225, 0.25)), color-stop(56.57895%, rgba(100, 100, 225, 0.25)), color-stop(56.57895%, rgba(0, 0, 0, 0)), color-stop(58.33333%, rgba(0, 0, 0, 0)), color-stop(58.33333%, rgba(100, 100, 225, 0.25)), color-stop(64.91228%, rgba(100, 100, 225, 0.25)), color-stop(64.91228%, rgba(0, 0, 0, 0)), color-stop(66.66667%, rgba(0, 0, 0, 0)), color-stop(66.66667%, rgba(100, 100, 225, 0.25)), color-stop(73.24561%, rgba(100, 100, 225, 0.25)), color-stop(73.24561%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(100, 100, 225, 0.25)), color-stop(81.57895%, rgba(100, 100, 225, 0.25)), color-stop(81.57895%, rgba(0, 0, 0, 0)), color-stop(83.33333%, rgba(0, 0, 0, 0)), color-stop(83.33333%, rgba(100, 100, 225, 0.25)), color-stop(89.91228%, rgba(100, 100, 225, 0.25)), color-stop(89.91228%, rgba(0, 0, 0, 0)), color-stop(91.66667%, rgba(0, 0, 0, 0)), color-stop(91.66667%, rgba(100, 100, 225, 0.25)), color-stop(98.24561%, rgba(100, 100, 225, 0.25)), color-stop(98.24561%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 60px, rgba(0, 0, 0, 0) 60px, rgba(0, 0, 0, 0) 76px, rgba(100, 100, 225, 0.25) 76px, rgba(100, 100, 225, 0.25) 136px, rgba(0, 0, 0, 0) 136px, rgba(0, 0, 0, 0) 152px, rgba(100, 100, 225, 0.25) 152px, rgba(100, 100, 225, 0.25) 212px, rgba(0, 0, 0, 0) 212px, rgba(0, 0, 0, 0) 228px, rgba(100, 100, 225, 0.25) 228px, rgba(100, 100, 225, 0.25) 288px, rgba(0, 0, 0, 0) 288px, rgba(0, 0, 0, 0) 304px, rgba(100, 100, 225, 0.25) 304px, rgba(100, 100, 225, 0.25) 364px, rgba(0, 0, 0, 0) 364px, rgba(0, 0, 0, 0) 380px, rgba(100, 100, 225, 0.25) 380px, rgba(100, 100, 225, 0.25) 440px, rgba(0, 0, 0, 0) 440px, rgba(0, 0, 0, 0) 456px, rgba(100, 100, 225, 0.25) 456px, rgba(100, 100, 225, 0.25) 516px, rgba(0, 0, 0, 0) 516px, rgba(0, 0, 0, 0) 532px, rgba(100, 100, 225, 0.25) 532px, rgba(100, 100, 225, 0.25) 592px, rgba(0, 0, 0, 0) 592px, rgba(0, 0, 0, 0) 608px, rgba(100, 100, 225, 0.25) 608px, rgba(100, 100, 225, 0.25) 668px, rgba(0, 0, 0, 0) 668px, rgba(0, 0, 0, 0) 684px, rgba(100, 100, 225, 0.25) 684px, rgba(100, 100, 225, 0.25) 744px, rgba(0, 0, 0, 0) 744px, rgba(0, 0, 0, 0) 760px, rgba(100, 100, 225, 0.25) 760px, rgba(100, 100, 225, 0.25) 820px, rgba(0, 0, 0, 0) 820px, rgba(0, 0, 0, 0) 836px, rgba(100, 100, 225, 0.25) 836px, rgba(100, 100, 225, 0.25) 896px, rgba(0, 0, 0, 0) 896px, rgba(0, 0, 0, 0) 912px);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 60px, rgba(0, 0, 0, 0) 60px, rgba(0, 0, 0, 0) 76px, rgba(100, 100, 225, 0.25) 76px, rgba(100, 100, 225, 0.25) 136px, rgba(0, 0, 0, 0) 136px, rgba(0, 0, 0, 0) 152px, rgba(100, 100, 225, 0.25) 152px, rgba(100, 100, 225, 0.25) 212px, rgba(0, 0, 0, 0) 212px, rgba(0, 0, 0, 0) 228px, rgba(100, 100, 225, 0.25) 228px, rgba(100, 100, 225, 0.25) 288px, rgba(0, 0, 0, 0) 288px, rgba(0, 0, 0, 0) 304px, rgba(100, 100, 225, 0.25) 304px, rgba(100, 100, 225, 0.25) 364px, rgba(0, 0, 0, 0) 364px, rgba(0, 0, 0, 0) 380px, rgba(100, 100, 225, 0.25) 380px, rgba(100, 100, 225, 0.25) 440px, rgba(0, 0, 0, 0) 440px, rgba(0, 0, 0, 0) 456px, rgba(100, 100, 225, 0.25) 456px, rgba(100, 100, 225, 0.25) 516px, rgba(0, 0, 0, 0) 516px, rgba(0, 0, 0, 0) 532px, rgba(100, 100, 225, 0.25) 532px, rgba(100, 100, 225, 0.25) 592px, rgba(0, 0, 0, 0) 592px, rgba(0, 0, 0, 0) 608px, rgba(100, 100, 225, 0.25) 608px, rgba(100, 100, 225, 0.25) 668px, rgba(0, 0, 0, 0) 668px, rgba(0, 0, 0, 0) 684px, rgba(100, 100, 225, 0.25) 684px, rgba(100, 100, 225, 0.25) 744px, rgba(0, 0, 0, 0) 744px, rgba(0, 0, 0, 0) 760px, rgba(100, 100, 225, 0.25) 760px, rgba(100, 100, 225, 0.25) 820px, rgba(0, 0, 0, 0) 820px, rgba(0, 0, 0, 0) 836px, rgba(100, 100, 225, 0.25) 836px, rgba(100, 100, 225, 0.25) 896px, rgba(0, 0, 0, 0) 896px, rgba(0, 0, 0, 0) 912px);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 60px, rgba(0, 0, 0, 0) 60px, rgba(0, 0, 0, 0) 76px, rgba(100, 100, 225, 0.25) 76px, rgba(100, 100, 225, 0.25) 136px, rgba(0, 0, 0, 0) 136px, rgba(0, 0, 0, 0) 152px, rgba(100, 100, 225, 0.25) 152px, rgba(100, 100, 225, 0.25) 212px, rgba(0, 0, 0, 0) 212px, rgba(0, 0, 0, 0) 228px, rgba(100, 100, 225, 0.25) 228px, rgba(100, 100, 225, 0.25) 288px, rgba(0, 0, 0, 0) 288px, rgba(0, 0, 0, 0) 304px, rgba(100, 100, 225, 0.25) 304px, rgba(100, 100, 225, 0.25) 364px, rgba(0, 0, 0, 0) 364px, rgba(0, 0, 0, 0) 380px, rgba(100, 100, 225, 0.25) 380px, rgba(100, 100, 225, 0.25) 440px, rgba(0, 0, 0, 0) 440px, rgba(0, 0, 0, 0) 456px, rgba(100, 100, 225, 0.25) 456px, rgba(100, 100, 225, 0.25) 516px, rgba(0, 0, 0, 0) 516px, rgba(0, 0, 0, 0) 532px, rgba(100, 100, 225, 0.25) 532px, rgba(100, 100, 225, 0.25) 592px, rgba(0, 0, 0, 0) 592px, rgba(0, 0, 0, 0) 608px, rgba(100, 100, 225, 0.25) 608px, rgba(100, 100, 225, 0.25) 668px, rgba(0, 0, 0, 0) 668px, rgba(0, 0, 0, 0) 684px, rgba(100, 100, 225, 0.25) 684px, rgba(100, 100, 225, 0.25) 744px, rgba(0, 0, 0, 0) 744px, rgba(0, 0, 0, 0) 760px, rgba(100, 100, 225, 0.25) 760px, rgba(100, 100, 225, 0.25) 820px, rgba(0, 0, 0, 0) 820px, rgba(0, 0, 0, 0) 836px, rgba(100, 100, 225, 0.25) 836px, rgba(100, 100, 225, 0.25) 896px, rgba(0, 0, 0, 0) 896px, rgba(0, 0, 0, 0) 912px);
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 60px, rgba(0, 0, 0, 0) 60px, rgba(0, 0, 0, 0) 76px, rgba(100, 100, 225, 0.25) 76px, rgba(100, 100, 225, 0.25) 136px, rgba(0, 0, 0, 0) 136px, rgba(0, 0, 0, 0) 152px, rgba(100, 100, 225, 0.25) 152px, rgba(100, 100, 225, 0.25) 212px, rgba(0, 0, 0, 0) 212px, rgba(0, 0, 0, 0) 228px, rgba(100, 100, 225, 0.25) 228px, rgba(100, 100, 225, 0.25) 288px, rgba(0, 0, 0, 0) 288px, rgba(0, 0, 0, 0) 304px, rgba(100, 100, 225, 0.25) 304px, rgba(100, 100, 225, 0.25) 364px, rgba(0, 0, 0, 0) 364px, rgba(0, 0, 0, 0) 380px, rgba(100, 100, 225, 0.25) 380px, rgba(100, 100, 225, 0.25) 440px, rgba(0, 0, 0, 0) 440px, rgba(0, 0, 0, 0) 456px, rgba(100, 100, 225, 0.25) 456px, rgba(100, 100, 225, 0.25) 516px, rgba(0, 0, 0, 0) 516px, rgba(0, 0, 0, 0) 532px, rgba(100, 100, 225, 0.25) 532px, rgba(100, 100, 225, 0.25) 592px, rgba(0, 0, 0, 0) 592px, rgba(0, 0, 0, 0) 608px, rgba(100, 100, 225, 0.25) 608px, rgba(100, 100, 225, 0.25) 668px, rgba(0, 0, 0, 0) 668px, rgba(0, 0, 0, 0) 684px, rgba(100, 100, 225, 0.25) 684px, rgba(100, 100, 225, 0.25) 744px, rgba(0, 0, 0, 0) 744px, rgba(0, 0, 0, 0) 760px, rgba(100, 100, 225, 0.25) 760px, rgba(100, 100, 225, 0.25) 820px, rgba(0, 0, 0, 0) 820px, rgba(0, 0, 0, 0) 836px, rgba(100, 100, 225, 0.25) 836px, rgba(100, 100, 225, 0.25) 896px, rgba(0, 0, 0, 0) 896px, rgba(0, 0, 0, 0) 912px);
   background-position: left top;
   -webkit-background-origin: content;
   -moz-background-origin: content;
@@ -23,10 +79,666 @@
   -webkit-background-clip: content-box;
   -moz-background-clip: content-box;
   background-clip: content-box;
+  margin: 0 auto;
 }
-/* line 38, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.container:after {
+@media (min-width: 288px) {
+  /* line 15, ../sass/_base.scss */
+  .container {
+    width: 288px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@media (min-width: 440px) {
+  /* line 15, ../sass/_base.scss */
+  .container {
+    width: 440px;
+  }
+}
+@media (min-width: 668px) {
+  /* line 15, ../sass/_base.scss */
+  .container {
+    width: 668px;
+  }
+}
+@media (min-width: 896px) {
+  /* line 15, ../sass/_base.scss */
+  .container {
+    width: 896px;
+  }
+}
+
+/* line 17, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
   content: "";
-  display: table;
+  content: none;
+}
+
+/* line 32, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 7, ../sass/_course.sass */
+h1, h2, p, a {
+  font-family: "HelveticaNeue", "Helvetica", "Heiti TC", "儷黑 Pro", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+/* line 12, ../sass/_course.sass */
+body {
+  position: relative;
+  background-color: #edf2f3;
+}
+
+/* line 22, ../sass/_course.sass */
+section {
   clear: both;
+  height: auto;
+}
+
+/* line 30, ../sass/_course.sass */
+.container-min {
+  max-width: 680px;
+  clear: both;
+  margin: 0 auto;
+  height: auto;
+}
+
+/* line 35, ../sass/_course.sass */
+h3 {
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+/* line 40, ../sass/_course.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 42, ../sass/_course.sass */
+i {
+  width: 24px;
+  margin-right: 4px;
+  text-align: center;
+}
+
+/* line 50, ../sass/_course.sass */
+.hero {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
+  width: 100%;
+  min-width: 100%;
+  height: 680px;
+  padding-top: 20px;
+  background-image: url(../images/ippi-cover-blur.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: black;
+  background-attachment: fixed;
+  margin: 0 0 -4em 0;
+}
+
+/* line 66, ../sass/_course.sass */
+.hero-logo {
+  float: left;
+  width: 120px;
+  height: 114px;
+  margin-left: 10px;
+  background-image: url(../images/ippi_taipei.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  overflow: hidden;
+}
+
+/* line 76, ../sass/_course.sass */
+.hero-logo-title {
+  width: 100%;
+  height: 1px;
+  text-indent: 9999px;
+  overflow: hidden;
+}
+
+/* line 81, ../sass/_course.sass */
+.hero-title {
+  color: white;
+  float: left;
+  margin: 0 0 0 20px;
+  font-size: 1em;
+  line-height: 1.4em;
+  letter-spacing: 0.2px;
+  vertical-align: baseline;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* line 90, ../sass/_course.sass */
+.social {
+  float: right;
+  width: auto;
+  margin-right: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+/* line 95, ../sass/_course.sass */
+.social i {
+  width: 40px;
+  display: inline-block;
+}
+/* line 98, ../sass/_course.sass */
+.social i:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* line 111, ../sass/_course.sass */
+nav {
+  width: 100%;
+  height: 64px;
+  background-color: rgba(1, 40, 81, 0.2);
+  border-bottom: 2px solid black;
+}
+/* line 116, ../sass/_course.sass */
+nav ul {
+  float: right;
+}
+/* line 118, ../sass/_course.sass */
+nav li {
+  padding: 1.5em 1.2em;
+  margin: auto 0 auto -4px;
+  display: inline-block;
+  border-bottom: 2px solid #dc0a17;
+  font-size: 1em;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+/* line 126, ../sass/_course.sass */
+nav li:hover {
+  border-bottom: 2px solid #fece2f;
+  background-color: rgba(1, 40, 81, 0.7);
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+/* line 132, ../sass/_course.sass */
+nav a {
+  color: white;
+  height: 100%;
+}
+
+/* line 135, ../sass/_course.sass */
+.nav-program {
+  float: left;
+  color: white;
+  font-size: 1.6em;
+  margin-left: 10px;
+  display: block;
+  padding: 0.75em 0;
+  font-family: "Times New Roman", "Georgia", Times, serif;
+  font-style: italic;
+}
+
+/* line 152, ../sass/_course.sass */
+.vision {
+  max-width: 680px;
+  line-height: 1.6;
+}
+/* line 155, ../sass/_course.sass */
+.vision p {
+  text-indent: 32px;
+  margin-bottom: 1em;
+}
+/* line 158, ../sass/_course.sass */
+.vision ol {
+  padding-left: 20px;
+}
+/* line 160, ../sass/_course.sass */
+.vision ol li {
+  list-style-type: decimal;
+}
+
+/* line 172, ../sass/_course.sass */
+.leader {
+  color: white;
+  position: relative;
+  background-image: url(../images/ippi_cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: black;
+  background-attachment: fixed;
+}
+/* line 182, ../sass/_course.sass */
+.leader .leader-filter {
+  display: block;
+  padding: 4em 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(50, 50, 50, 0.8);
+}
+
+/* line 188, ../sass/_course.sass */
+.leader-img {
+  float: left;
+  width: 142px;
+  margin: 8px 32px 0 0;
+}
+
+/* line 192, ../sass/_course.sass */
+.leader-title {
+  font-size: 1.2em;
+}
+
+/* line 194, ../sass/_course.sass */
+.host {
+  font-size: 1.6em;
+}
+
+/* line 206, ../sass/_course.sass */
+.team-speaker {
+  float: left;
+  height: 220px;
+  width: 270px;
+  margin: 0 10px 3em 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+/* line 214, ../sass/_course.sass */
+.team-speaker h4 {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  top: 16px;
+  padding: 16px 8px;
+  font-size: 1.2em;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+}
+/* line 220, ../sass/_course.sass */
+.team-speaker ul {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+}
+/* line 225, ../sass/_course.sass */
+.team-speaker ul li {
+  line-height: 1.4;
+  font-size: 12px;
+}
+/* line 229, ../sass/_course.sass */
+.team-speaker:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-shadow: rgba(200, 200, 200, 0.8) 0px 8px 4px -4px;
+  -moz-box-shadow: rgba(200, 200, 200, 0.8) 0px 8px 4px -4px;
+  box-shadow: rgba(200, 200, 200, 0.8) 0px 8px 4px -4px;
+}
+/* line 234, ../sass/_course.sass */
+.team-speaker:hover h4 {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  top: 16px;
+  padding: 16px 8px;
+  font-size: 1.2em;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+}
+/* line 240, ../sass/_course.sass */
+.team-speaker:hover ul {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  bottom: 0px;
+  padding: 8px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: rgba(250, 250, 250, 0.9);
+  background-color: rgba(36, 36, 36, 0.5);
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+}
+/* line 249, ../sass/_course.sass */
+.team-speaker:last-child {
+  margin-bottom: 6em;
+}
+
+/* line 252, ../sass/_course.sass */
+.profile-1 {
+  background-image: url(../images/profile/lee_cut.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+/* line 256, ../sass/_course.sass */
+.profile-2 {
+  background-image: url(../images/profile/lin_cut.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+/* line 260, ../sass/_course.sass */
+.profile-3 {
+  background-image: url(../images/profile/lee_cut2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 264, ../sass/_course.sass */
+.profile-4 {
+  background-image: url(../images/profile/lin_cut.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 268, ../sass/_course.sass */
+.profile-5 {
+  background-image: url(../images/profile/lin_cut.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 272, ../sass/_course.sass */
+.profile-6 {
+  background-image: url(../images/profile/shih_cut.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 276, ../sass/_course.sass */
+.profile-7 {
+  background-image: url(../images/profile/lin_cut.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 280, ../sass/_course.sass */
+.profile-8 {
+  background-image: url(../images/profile/lee_cut2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 300, ../sass/_course.sass */
+.h2-program {
+  clear: both;
+  font-size: 2em;
+  color: white;
+  padding: 2em 0;
+  margin: 1em 0;
+  text-align: center;
+  background-color: rgba(3, 46, 91, 0.9);
+}
+
+/* line 308, ../sass/_course.sass */
+.lesson {
+  max-width: 620px;
+  padding-bottom: 4em;
+  clear: both;
+}
+
+/* line 312, ../sass/_course.sass */
+.lesson-series {
+  font-family: "Times New Roman", "Georgia", Times, serif;
+  font-style: italic;
+  font-size: 1.6em;
+  border-bottom: 1px solid #032e5b;
+  margin-bottom: 1em;
+  clear: both;
+}
+
+/* line 320, ../sass/_course.sass */
+.lesson-name {
+  font-family: "Times New Roman", "Georgia", Times, "Heiti TC", serif;
+  font-size: 1.2em;
+  margin-bottom: 16px;
+  clear: both;
+}
+
+/* line 326, ../sass/_course.sass */
+.lesson-content {
+  font-size: 1em;
+  margin-bottom: 24px;
+  line-height: 1.4;
+  color: #3e3e3e;
+}
+
+/* line 331, ../sass/_course.sass */
+.lesson-date {
+  margin-bottom: 8px;
+  color: #3e3e3e;
+}
+
+/* line 334, ../sass/_course.sass */
+.lesson-price {
+  color: #3e3e3e;
+}
+
+/* line 337, ../sass/_course.sass */
+.download {
+  margin: 1em 0 4em 0;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  float: right;
+  width: 88px;
+  padding: 8px 18px;
+  display: block;
+  border: 1px solid #09467f;
+  background-color: #094884;
+  color: white;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.3) 0px 2px 2px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.3) 0px 2px 2px inset;
+  box-shadow: rgba(255, 255, 255, 0.3) 0px 2px 2px inset;
+}
+/* line 349, ../sass/_course.sass */
+.download:hover {
+  transition: 0.1s;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.2) 0px -3px 3px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.2) 0px -3px 3px inset;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px -3px 3px inset;
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01);
+  transform: scale(1.01);
+}
+
+/* line 367, ../sass/_course.sass */
+.register {
+  line-height: 1.4;
+  color: white;
+  position: relative;
+  background-image: url(../images/ippi_course.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: black;
+  background-attachment: fixed;
+  clear: both;
+}
+/* line 378, ../sass/_course.sass */
+.register .register-filter {
+  display: block;
+  padding: 0em 0 4em 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 20, 20, 0.4);
+}
+
+/* line 397, ../sass/_course.sass */
+footer {
+  color: white;
+  background-color: #032e5b;
+  height: 5em;
+  padding-top: 13em;
+  position: relative;
+}
+
+/* line 403, ../sass/_course.sass */
+.footer-logo {
+  float: right;
+  width: 120px;
+  height: 76px;
+  margin: -10px 0 0 0;
+  background-image: url(../images/ippi_taipei.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* line 413, ../sass/_course.sass */
+.footer-logo-title {
+  width: 100%;
+  height: 1px;
+  text-indent: 9999px;
+  overflow: hidden;
+}
+
+/* line 418, ../sass/_course.sass */
+.footer-contact {
+  float: right;
+  width: 320px;
+  height: 76px;
+  margin: 0 0 0 20px;
+}
+
+/* line 423, ../sass/_course.sass */
+.sticky {
+  position: absolute;
+  bottom: 0;
+  height: 5px;
+  width: 100%;
+  z-index: 20;
+}
+
+/* line 429, ../sass/_course.sass */
+.germany-black, .germany-yellow, .germany-red {
+  float: left;
+  width: 33.33333%;
+  height: 3px;
+}
+
+/* line 434, ../sass/_course.sass */
+.germany-black {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-top: 2px solid #3c3c3c;
+}
+
+/* line 437, ../sass/_course.sass */
+.germany-red {
+  background-color: #8f050e;
+  border-top: 2px solid #dc0a17;
+}
+
+/* line 440, ../sass/_course.sass */
+.germany-yellow {
+  background-color: #9e8a1b;
+  border-top: 2px solid #fece2f;
+}
+
+/* line 444, ../sass/_course.sass */
+#map {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
