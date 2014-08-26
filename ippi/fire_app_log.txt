@@ -2731,3 +2731,11 @@ Load paths:
 2014-07-13 13:18:15     error sass/cover.sass (Line 12: Invalid CSS after "normal": expected expression (e.g. 1px, bold), was ";")
 2014-07-13 13:18:15 overwrite stylesheets/cover.css 
 2014-07-13 13:18:18 overwrite stylesheets/cover.css 
+2014-08-26 10:36:06 identical stylesheets/course.css 
+2014-08-26 10:36:07 identical stylesheets/cover.css 
+2014-08-26 10:36:07 identical stylesheets/ie.css 
+2014-08-26 10:36:07 identical stylesheets/screen.css 
+2014-08-26 10:45:31 identical stylesheets/course.css 
+2014-08-26 10:45:31 overwrite stylesheets/cover.css 
+2014-08-26 10:45:31 identical stylesheets/ie.css 
+2014-08-26 10:45:31 identical stylesheets/screen.css 

@@ -96,17 +96,14 @@ a {
   height: auto;
   min-height: 103%;
   margin: -10px;
-  background-image: url(../images/ippi_cover.jpg);
+  background-image: url(../images/ippi-cover-blur.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-color: black;
-  -webkit-filter: blur(3px);
-  -moz-filter: blur(3px);
-  filter: blur(3px);
 }
 
-/* line 43, ../sass/cover.sass */
+/* line 42, ../sass/cover.sass */
 .wrapper {
   position: fixed;
   z-index: 15;
@@ -118,7 +115,7 @@ a {
   overflow: hidden;
 }
 
-/* line 64, ../sass/cover.sass */
+/* line 63, ../sass/cover.sass */
 .logo {
   float: left;
   width: 120px;
@@ -130,7 +127,7 @@ a {
   background-size: contain;
   overflow: hidden;
 }
-/* line 74, ../sass/cover.sass */
+/* line 73, ../sass/cover.sass */
 .logo h1 {
   width: 100%;
   height: 1px;
@@ -138,7 +135,7 @@ a {
   overflow: hidden;
 }
 
-/* line 79, ../sass/cover.sass */
+/* line 78, ../sass/cover.sass */
 .ippi {
   float: left;
   margin: 22px 0 0 8px;
@@ -146,7 +143,7 @@ a {
   line-height: 1.2em;
   vertical-align: baseline;
 }
-/* line 85, ../sass/cover.sass */
+/* line 84, ../sass/cover.sass */
 .ippi .fix {
   letter-spacing: 1.2px;
   margin-top: 3px;
@@ -154,7 +151,7 @@ a {
   font-family: "Heiti TC";
 }
 
-/* line 98, ../sass/cover.sass */
+/* line 97, ../sass/cover.sass */
 .course {
   display: table;
   position: fixed;
@@ -163,12 +160,12 @@ a {
   min-height: 100%;
   width: 100%;
 }
-/* line 106, ../sass/cover.sass */
+/* line 105, ../sass/cover.sass */
 .course .center-button {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 109, ../sass/cover.sass */
+/* line 108, ../sass/cover.sass */
 .course .center-button a {
   color: white;
   font-size: 1.8em;
@@ -183,7 +180,7 @@ a {
   -webkit-animation: click-me 1.5s infinite ease-in-out;
   animation: click-me 1.5s infinite ease-in-out;
 }
-/* line 123, ../sass/cover.sass */
+/* line 122, ../sass/cover.sass */
 .course .center-button a:hover {
   border: 1px solid rgba(255, 255, 255, 0.9);
   -webkit-animation: none;
@@ -194,7 +191,7 @@ a {
   -o-transition: 0.1s;
   transition: 0.1s;
 }
-/* line 129, ../sass/cover.sass */
+/* line 128, ../sass/cover.sass */
 .course .center-button a .year {
   font-size: 20px;
   display: block;
@@ -203,40 +200,40 @@ a {
 }
 
 @-webkit-keyframes click-me {
-  /* line 137, ../sass/cover.sass */
+  /* line 136, ../sass/cover.sass */
   0% {
     background: rgba(255, 255, 255, 0.1);
   }
 
-  /* line 139, ../sass/cover.sass */
+  /* line 138, ../sass/cover.sass */
   50% {
     background: rgba(255, 255, 255, 0.3);
   }
 
-  /* line 141, ../sass/cover.sass */
+  /* line 140, ../sass/cover.sass */
   100% {
     background: rgba(255, 255, 255, 0.1);
   }
 }
 
 @keyframes click-me {
-  /* line 145, ../sass/cover.sass */
+  /* line 144, ../sass/cover.sass */
   0% {
     background: rgba(255, 255, 255, 0.1);
   }
 
-  /* line 147, ../sass/cover.sass */
+  /* line 146, ../sass/cover.sass */
   50% {
     background: rgba(255, 255, 255, 0.3);
   }
 
-  /* line 149, ../sass/cover.sass */
+  /* line 148, ../sass/cover.sass */
   100% {
     background: rgba(255, 255, 255, 0.1);
   }
 }
 
-/* line 159, ../sass/cover.sass */
+/* line 158, ../sass/cover.sass */
 .contact {
   position: fixed;
   bottom: 14px;
@@ -244,7 +241,7 @@ a {
   z-index: 30;
 }
 
-/* line 166, ../sass/cover.sass */
+/* line 165, ../sass/cover.sass */
 a, p {
   color: rgba(255, 255, 255, 0.9);
   font-size: 1em;
@@ -252,12 +249,12 @@ a, p {
   display: block;
 }
 
-/* line 172, ../sass/cover.sass */
+/* line 171, ../sass/cover.sass */
 p {
   display: inline;
 }
 
-/* line 175, ../sass/cover.sass */
+/* line 174, ../sass/cover.sass */
 i {
   font-size: 1.2em;
   width: 36px;
@@ -268,7 +265,7 @@ i {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* line 190, ../sass/cover.sass */
+/* line 189, ../sass/cover.sass */
 .sticky {
   position: absolute;
   bottom: 0;
@@ -276,33 +273,33 @@ i {
   width: 100%;
 }
 
-/* line 195, ../sass/cover.sass */
+/* line 194, ../sass/cover.sass */
 .germany-black, .germany-yellow, .germany-red {
   float: left;
   width: 33.33333%;
   height: 3px;
 }
 
-/* line 200, ../sass/cover.sass */
+/* line 199, ../sass/cover.sass */
 .germany-black {
   background-color: rgba(0, 0, 0, 0.6);
   border-top: 2px solid black;
 }
 
-/* line 203, ../sass/cover.sass */
+/* line 202, ../sass/cover.sass */
 .germany-red {
   background-color: rgba(220, 10, 23, 0.5);
   border-top: 2px solid #dc0a17;
 }
 
-/* line 206, ../sass/cover.sass */
+/* line 205, ../sass/cover.sass */
 .germany-yellow {
   background-color: rgba(254, 206, 47, 0.5);
   border-top: 2px solid #fece2f;
 }
 
 @media screen and (max-width: 580px) {
-  /* line 211, ../sass/cover.sass */
+  /* line 210, ../sass/cover.sass */
   .background-show {
     position: fixed;
     z-index: 10;
@@ -316,12 +313,12 @@ i {
     filter: blur(3px) grayscale(5%);
   }
 
-  /* line 220, ../sass/cover.sass */
+  /* line 219, ../sass/cover.sass */
   .wrapper {
     background-color: rgba(0, 0, 0, 0.4);
   }
 
-  /* line 222, ../sass/cover.sass */
+  /* line 221, ../sass/cover.sass */
   .logo {
     float: left;
     width: 84px;
@@ -329,7 +326,7 @@ i {
     margin: 10px 0 0 10px;
   }
 
-  /* line 227, ../sass/cover.sass */
+  /* line 226, ../sass/cover.sass */
   .ippi {
     float: left;
     margin: 12px 0 0 10px;
@@ -337,7 +334,7 @@ i {
     line-height: 1.2em;
   }
 
-  /* line 235, ../sass/cover.sass */
+  /* line 234, ../sass/cover.sass */
   .course .center-button a {
     display: block;
     color: white;
@@ -345,7 +342,7 @@ i {
     width: 240px;
     padding: 16px 12px 16px 12px;
   }
-  /* line 241, ../sass/cover.sass */
+  /* line 240, ../sass/cover.sass */
   .course .center-button a .year {
     font-size: 14px;
     display: block;
@@ -353,7 +350,7 @@ i {
     text-align: center;
   }
 
-  /* line 246, ../sass/cover.sass */
+  /* line 245, ../sass/cover.sass */
   .contact {
     position: fixed;
     bottom: 8px;
@@ -361,17 +358,17 @@ i {
     z-index: 30;
   }
 
-  /* line 251, ../sass/cover.sass */
+  /* line 250, ../sass/cover.sass */
   a {
     font-size: 1.6em;
     display: inline-block;
   }
-  /* line 254, ../sass/cover.sass */
+  /* line 253, ../sass/cover.sass */
   a p {
     display: none;
   }
 
-  /* line 257, ../sass/cover.sass */
+  /* line 256, ../sass/cover.sass */
   i {
     font-size: 1.2em;
     width: 36px;
@@ -383,29 +380,29 @@ i {
     color: rgba(255, 255, 255, 0.7);
   }
 
-  /* line 266, ../sass/cover.sass */
+  /* line 265, ../sass/cover.sass */
   .fa-map-marker {
     margin-left: -2px;
   }
 
-  /* line 268, ../sass/cover.sass */
+  /* line 267, ../sass/cover.sass */
   .germany-black, .germany-yellow, .germany-red {
     height: 3px;
   }
 
-  /* line 270, ../sass/cover.sass */
+  /* line 269, ../sass/cover.sass */
   .germany-black {
     background-color: rgba(0, 0, 0, 0.6);
     border-top: 2px solid black;
   }
 
-  /* line 273, ../sass/cover.sass */
+  /* line 272, ../sass/cover.sass */
   .germany-red {
     background-color: rgba(220, 10, 23, 0.5);
     border-top: 2px solid #dc0a17;
   }
 
-  /* line 276, ../sass/cover.sass */
+  /* line 275, ../sass/cover.sass */
   .germany-yellow {
     background-color: rgba(254, 206, 47, 0.5);
     border-top: 2px solid #fece2f;
