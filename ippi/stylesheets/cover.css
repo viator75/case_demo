@@ -159,8 +159,8 @@ a {
   background-image: url(../images/line-pattern.png);
   background-repeat: repeat;
   background-size: 2px;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
-  opacity: 0.2;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=10);
+  opacity: 0.1;
 }
 
 /* line 71, ../sass/cover.sass */

@@ -65,11 +65,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 15, ../sass/_base.scss */
 .container {
-  background-image: -webkit-gradient(linear, 0% 50%, 912 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(6.57895%, rgba(100, 100, 225, 0.25)), color-stop(6.57895%, rgba(0, 0, 0, 0)), color-stop(8.33333%, rgba(0, 0, 0, 0)), color-stop(8.33333%, rgba(100, 100, 225, 0.25)), color-stop(14.91228%, rgba(100, 100, 225, 0.25)), color-stop(14.91228%, rgba(0, 0, 0, 0)), color-stop(16.66667%, rgba(0, 0, 0, 0)), color-stop(16.66667%, rgba(100, 100, 225, 0.25)), color-stop(23.24561%, rgba(100, 100, 225, 0.25)), color-stop(23.24561%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(100, 100, 225, 0.25)), color-stop(31.57895%, rgba(100, 100, 225, 0.25)), color-stop(31.57895%, rgba(0, 0, 0, 0)), color-stop(33.33333%, rgba(0, 0, 0, 0)), color-stop(33.33333%, rgba(100, 100, 225, 0.25)), color-stop(39.91228%, rgba(100, 100, 225, 0.25)), color-stop(39.91228%, rgba(0, 0, 0, 0)), color-stop(41.66667%, rgba(0, 0, 0, 0)), color-stop(41.66667%, rgba(100, 100, 225, 0.25)), color-stop(48.24561%, rgba(100, 100, 225, 0.25)), color-stop(48.24561%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(100, 100, 225, 0.25)), color-stop(56.57895%, rgba(100, 100, 225, 0.25)), color-stop(56.57895%, rgba(0, 0, 0, 0)), color-stop(58.33333%, rgba(0, 0, 0, 0)), color-stop(58.33333%, rgba(100, 100, 225, 0.25)), color-stop(64.91228%, rgba(100, 100, 225, 0.25)), color-stop(64.91228%, rgba(0, 0, 0, 0)), color-stop(66.66667%, rgba(0, 0, 0, 0)), color-stop(66.66667%, rgba(100, 100, 225, 0.25)), color-stop(73.24561%, rgba(100, 100, 225, 0.25)), color-stop(73.24561%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(100, 100, 225, 0.25)), color-stop(81.57895%, rgba(100, 100, 225, 0.25)), color-stop(81.57895%, rgba(0, 0, 0, 0)), color-stop(83.33333%, rgba(0, 0, 0, 0)), color-stop(83.33333%, rgba(100, 100, 225, 0.25)), color-stop(89.91228%, rgba(100, 100, 225, 0.25)), color-stop(89.91228%, rgba(0, 0, 0, 0)), color-stop(91.66667%, rgba(0, 0, 0, 0)), color-stop(91.66667%, rgba(100, 100, 225, 0.25)), color-stop(98.24561%, rgba(100, 100, 225, 0.25)), color-stop(98.24561%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 60px, rgba(0, 0, 0, 0) 60px, rgba(0, 0, 0, 0) 76px, rgba(100, 100, 225, 0.25) 76px, rgba(100, 100, 225, 0.25) 136px, rgba(0, 0, 0, 0) 136px, rgba(0, 0, 0, 0) 152px, rgba(100, 100, 225, 0.25) 152px, rgba(100, 100, 225, 0.25) 212px, rgba(0, 0, 0, 0) 212px, rgba(0, 0, 0, 0) 228px, rgba(100, 100, 225, 0.25) 228px, rgba(100, 100, 225, 0.25) 288px, rgba(0, 0, 0, 0) 288px, rgba(0, 0, 0, 0) 304px, rgba(100, 100, 225, 0.25) 304px, rgba(100, 100, 225, 0.25) 364px, rgba(0, 0, 0, 0) 364px, rgba(0, 0, 0, 0) 380px, rgba(100, 100, 225, 0.25) 380px, rgba(100, 100, 225, 0.25) 440px, rgba(0, 0, 0, 0) 440px, rgba(0, 0, 0, 0) 456px, rgba(100, 100, 225, 0.25) 456px, rgba(100, 100, 225, 0.25) 516px, rgba(0, 0, 0, 0) 516px, rgba(0, 0, 0, 0) 532px, rgba(100, 100, 225, 0.25) 532px, rgba(100, 100, 225, 0.25) 592px, rgba(0, 0, 0, 0) 592px, rgba(0, 0, 0, 0) 608px, rgba(100, 100, 225, 0.25) 608px, rgba(100, 100, 225, 0.25) 668px, rgba(0, 0, 0, 0) 668px, rgba(0, 0, 0, 0) 684px, rgba(100, 100, 225, 0.25) 684px, rgba(100, 100, 225, 0.25) 744px, rgba(0, 0, 0, 0) 744px, rgba(0, 0, 0, 0) 760px, rgba(100, 100, 225, 0.25) 760px, rgba(100, 100, 225, 0.25) 820px, rgba(0, 0, 0, 0) 820px, rgba(0, 0, 0, 0) 836px, rgba(100, 100, 225, 0.25) 836px, rgba(100, 100, 225, 0.25) 896px, rgba(0, 0, 0, 0) 896px, rgba(0, 0, 0, 0) 912px);
-  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 60px, rgba(0, 0, 0, 0) 60px, rgba(0, 0, 0, 0) 76px, rgba(100, 100, 225, 0.25) 76px, rgba(100, 100, 225, 0.25) 136px, rgba(0, 0, 0, 0) 136px, rgba(0, 0, 0, 0) 152px, rgba(100, 100, 225, 0.25) 152px, rgba(100, 100, 225, 0.25) 212px, rgba(0, 0, 0, 0) 212px, rgba(0, 0, 0, 0) 228px, rgba(100, 100, 225, 0.25) 228px, rgba(100, 100, 225, 0.25) 288px, rgba(0, 0, 0, 0) 288px, rgba(0, 0, 0, 0) 304px, rgba(100, 100, 225, 0.25) 304px, rgba(100, 100, 225, 0.25) 364px, rgba(0, 0, 0, 0) 364px, rgba(0, 0, 0, 0) 380px, rgba(100, 100, 225, 0.25) 380px, rgba(100, 100, 225, 0.25) 440px, rgba(0, 0, 0, 0) 440px, rgba(0, 0, 0, 0) 456px, rgba(100, 100, 225, 0.25) 456px, rgba(100, 100, 225, 0.25) 516px, rgba(0, 0, 0, 0) 516px, rgba(0, 0, 0, 0) 532px, rgba(100, 100, 225, 0.25) 532px, rgba(100, 100, 225, 0.25) 592px, rgba(0, 0, 0, 0) 592px, rgba(0, 0, 0, 0) 608px, rgba(100, 100, 225, 0.25) 608px, rgba(100, 100, 225, 0.25) 668px, rgba(0, 0, 0, 0) 668px, rgba(0, 0, 0, 0) 684px, rgba(100, 100, 225, 0.25) 684px, rgba(100, 100, 225, 0.25) 744px, rgba(0, 0, 0, 0) 744px, rgba(0, 0, 0, 0) 760px, rgba(100, 100, 225, 0.25) 760px, rgba(100, 100, 225, 0.25) 820px, rgba(0, 0, 0, 0) 820px, rgba(0, 0, 0, 0) 836px, rgba(100, 100, 225, 0.25) 836px, rgba(100, 100, 225, 0.25) 896px, rgba(0, 0, 0, 0) 896px, rgba(0, 0, 0, 0) 912px);
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 60px, rgba(0, 0, 0, 0) 60px, rgba(0, 0, 0, 0) 76px, rgba(100, 100, 225, 0.25) 76px, rgba(100, 100, 225, 0.25) 136px, rgba(0, 0, 0, 0) 136px, rgba(0, 0, 0, 0) 152px, rgba(100, 100, 225, 0.25) 152px, rgba(100, 100, 225, 0.25) 212px, rgba(0, 0, 0, 0) 212px, rgba(0, 0, 0, 0) 228px, rgba(100, 100, 225, 0.25) 228px, rgba(100, 100, 225, 0.25) 288px, rgba(0, 0, 0, 0) 288px, rgba(0, 0, 0, 0) 304px, rgba(100, 100, 225, 0.25) 304px, rgba(100, 100, 225, 0.25) 364px, rgba(0, 0, 0, 0) 364px, rgba(0, 0, 0, 0) 380px, rgba(100, 100, 225, 0.25) 380px, rgba(100, 100, 225, 0.25) 440px, rgba(0, 0, 0, 0) 440px, rgba(0, 0, 0, 0) 456px, rgba(100, 100, 225, 0.25) 456px, rgba(100, 100, 225, 0.25) 516px, rgba(0, 0, 0, 0) 516px, rgba(0, 0, 0, 0) 532px, rgba(100, 100, 225, 0.25) 532px, rgba(100, 100, 225, 0.25) 592px, rgba(0, 0, 0, 0) 592px, rgba(0, 0, 0, 0) 608px, rgba(100, 100, 225, 0.25) 608px, rgba(100, 100, 225, 0.25) 668px, rgba(0, 0, 0, 0) 668px, rgba(0, 0, 0, 0) 684px, rgba(100, 100, 225, 0.25) 684px, rgba(100, 100, 225, 0.25) 744px, rgba(0, 0, 0, 0) 744px, rgba(0, 0, 0, 0) 760px, rgba(100, 100, 225, 0.25) 760px, rgba(100, 100, 225, 0.25) 820px, rgba(0, 0, 0, 0) 820px, rgba(0, 0, 0, 0) 836px, rgba(100, 100, 225, 0.25) 836px, rgba(100, 100, 225, 0.25) 896px, rgba(0, 0, 0, 0) 896px, rgba(0, 0, 0, 0) 912px);
-  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 60px, rgba(0, 0, 0, 0) 60px, rgba(0, 0, 0, 0) 76px, rgba(100, 100, 225, 0.25) 76px, rgba(100, 100, 225, 0.25) 136px, rgba(0, 0, 0, 0) 136px, rgba(0, 0, 0, 0) 152px, rgba(100, 100, 225, 0.25) 152px, rgba(100, 100, 225, 0.25) 212px, rgba(0, 0, 0, 0) 212px, rgba(0, 0, 0, 0) 228px, rgba(100, 100, 225, 0.25) 228px, rgba(100, 100, 225, 0.25) 288px, rgba(0, 0, 0, 0) 288px, rgba(0, 0, 0, 0) 304px, rgba(100, 100, 225, 0.25) 304px, rgba(100, 100, 225, 0.25) 364px, rgba(0, 0, 0, 0) 364px, rgba(0, 0, 0, 0) 380px, rgba(100, 100, 225, 0.25) 380px, rgba(100, 100, 225, 0.25) 440px, rgba(0, 0, 0, 0) 440px, rgba(0, 0, 0, 0) 456px, rgba(100, 100, 225, 0.25) 456px, rgba(100, 100, 225, 0.25) 516px, rgba(0, 0, 0, 0) 516px, rgba(0, 0, 0, 0) 532px, rgba(100, 100, 225, 0.25) 532px, rgba(100, 100, 225, 0.25) 592px, rgba(0, 0, 0, 0) 592px, rgba(0, 0, 0, 0) 608px, rgba(100, 100, 225, 0.25) 608px, rgba(100, 100, 225, 0.25) 668px, rgba(0, 0, 0, 0) 668px, rgba(0, 0, 0, 0) 684px, rgba(100, 100, 225, 0.25) 684px, rgba(100, 100, 225, 0.25) 744px, rgba(0, 0, 0, 0) 744px, rgba(0, 0, 0, 0) 760px, rgba(100, 100, 225, 0.25) 760px, rgba(100, 100, 225, 0.25) 820px, rgba(0, 0, 0, 0) 820px, rgba(0, 0, 0, 0) 836px, rgba(100, 100, 225, 0.25) 836px, rgba(100, 100, 225, 0.25) 896px, rgba(0, 0, 0, 0) 896px, rgba(0, 0, 0, 0) 912px);
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(6.69643%, rgba(100, 100, 225, 0.25)), color-stop(6.69643%, rgba(0, 0, 0, 0)), color-stop(8.48214%, rgba(0, 0, 0, 0)), color-stop(8.48214%, rgba(100, 100, 225, 0.25)), color-stop(15.17857%, rgba(100, 100, 225, 0.25)), color-stop(15.17857%, rgba(0, 0, 0, 0)), color-stop(16.96429%, rgba(0, 0, 0, 0)), color-stop(16.96429%, rgba(100, 100, 225, 0.25)), color-stop(23.66071%, rgba(100, 100, 225, 0.25)), color-stop(23.66071%, rgba(0, 0, 0, 0)), color-stop(25.44643%, rgba(0, 0, 0, 0)), color-stop(25.44643%, rgba(100, 100, 225, 0.25)), color-stop(32.14286%, rgba(100, 100, 225, 0.25)), color-stop(32.14286%, rgba(0, 0, 0, 0)), color-stop(33.92857%, rgba(0, 0, 0, 0)), color-stop(33.92857%, rgba(100, 100, 225, 0.25)), color-stop(40.625%, rgba(100, 100, 225, 0.25)), color-stop(40.625%, rgba(0, 0, 0, 0)), color-stop(42.41071%, rgba(0, 0, 0, 0)), color-stop(42.41071%, rgba(100, 100, 225, 0.25)), color-stop(49.10714%, rgba(100, 100, 225, 0.25)), color-stop(49.10714%, rgba(0, 0, 0, 0)), color-stop(50.89286%, rgba(0, 0, 0, 0)), color-stop(50.89286%, rgba(100, 100, 225, 0.25)), color-stop(57.58929%, rgba(100, 100, 225, 0.25)), color-stop(57.58929%, rgba(0, 0, 0, 0)), color-stop(59.375%, rgba(0, 0, 0, 0)), color-stop(59.375%, rgba(100, 100, 225, 0.25)), color-stop(66.07143%, rgba(100, 100, 225, 0.25)), color-stop(66.07143%, rgba(0, 0, 0, 0)), color-stop(67.85714%, rgba(0, 0, 0, 0)), color-stop(67.85714%, rgba(100, 100, 225, 0.25)), color-stop(74.55357%, rgba(100, 100, 225, 0.25)), color-stop(74.55357%, rgba(0, 0, 0, 0)), color-stop(76.33929%, rgba(0, 0, 0, 0)), color-stop(76.33929%, rgba(100, 100, 225, 0.25)), color-stop(83.03571%, rgba(100, 100, 225, 0.25)), color-stop(83.03571%, rgba(0, 0, 0, 0)), color-stop(84.82143%, rgba(0, 0, 0, 0)), color-stop(84.82143%, rgba(100, 100, 225, 0.25)), color-stop(91.51786%, rgba(100, 100, 225, 0.25)), color-stop(91.51786%, rgba(0, 0, 0, 0)), color-stop(93.30357%, rgba(0, 0, 0, 0)), color-stop(93.30357%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.69643%, rgba(0, 0, 0, 0) 6.69643%, rgba(0, 0, 0, 0) 8.48214%, rgba(100, 100, 225, 0.25) 8.48214%, rgba(100, 100, 225, 0.25) 15.17857%, rgba(0, 0, 0, 0) 15.17857%, rgba(0, 0, 0, 0) 16.96429%, rgba(100, 100, 225, 0.25) 16.96429%, rgba(100, 100, 225, 0.25) 23.66071%, rgba(0, 0, 0, 0) 23.66071%, rgba(0, 0, 0, 0) 25.44643%, rgba(100, 100, 225, 0.25) 25.44643%, rgba(100, 100, 225, 0.25) 32.14286%, rgba(0, 0, 0, 0) 32.14286%, rgba(0, 0, 0, 0) 33.92857%, rgba(100, 100, 225, 0.25) 33.92857%, rgba(100, 100, 225, 0.25) 40.625%, rgba(0, 0, 0, 0) 40.625%, rgba(0, 0, 0, 0) 42.41071%, rgba(100, 100, 225, 0.25) 42.41071%, rgba(100, 100, 225, 0.25) 49.10714%, rgba(0, 0, 0, 0) 49.10714%, rgba(0, 0, 0, 0) 50.89286%, rgba(100, 100, 225, 0.25) 50.89286%, rgba(100, 100, 225, 0.25) 57.58929%, rgba(0, 0, 0, 0) 57.58929%, rgba(0, 0, 0, 0) 59.375%, rgba(100, 100, 225, 0.25) 59.375%, rgba(100, 100, 225, 0.25) 66.07143%, rgba(0, 0, 0, 0) 66.07143%, rgba(0, 0, 0, 0) 67.85714%, rgba(100, 100, 225, 0.25) 67.85714%, rgba(100, 100, 225, 0.25) 74.55357%, rgba(0, 0, 0, 0) 74.55357%, rgba(0, 0, 0, 0) 76.33929%, rgba(100, 100, 225, 0.25) 76.33929%, rgba(100, 100, 225, 0.25) 83.03571%, rgba(0, 0, 0, 0) 83.03571%, rgba(0, 0, 0, 0) 84.82143%, rgba(100, 100, 225, 0.25) 84.82143%, rgba(100, 100, 225, 0.25) 91.51786%, rgba(0, 0, 0, 0) 91.51786%, rgba(0, 0, 0, 0) 93.30357%, rgba(100, 100, 225, 0.25) 93.30357%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.69643%, rgba(0, 0, 0, 0) 6.69643%, rgba(0, 0, 0, 0) 8.48214%, rgba(100, 100, 225, 0.25) 8.48214%, rgba(100, 100, 225, 0.25) 15.17857%, rgba(0, 0, 0, 0) 15.17857%, rgba(0, 0, 0, 0) 16.96429%, rgba(100, 100, 225, 0.25) 16.96429%, rgba(100, 100, 225, 0.25) 23.66071%, rgba(0, 0, 0, 0) 23.66071%, rgba(0, 0, 0, 0) 25.44643%, rgba(100, 100, 225, 0.25) 25.44643%, rgba(100, 100, 225, 0.25) 32.14286%, rgba(0, 0, 0, 0) 32.14286%, rgba(0, 0, 0, 0) 33.92857%, rgba(100, 100, 225, 0.25) 33.92857%, rgba(100, 100, 225, 0.25) 40.625%, rgba(0, 0, 0, 0) 40.625%, rgba(0, 0, 0, 0) 42.41071%, rgba(100, 100, 225, 0.25) 42.41071%, rgba(100, 100, 225, 0.25) 49.10714%, rgba(0, 0, 0, 0) 49.10714%, rgba(0, 0, 0, 0) 50.89286%, rgba(100, 100, 225, 0.25) 50.89286%, rgba(100, 100, 225, 0.25) 57.58929%, rgba(0, 0, 0, 0) 57.58929%, rgba(0, 0, 0, 0) 59.375%, rgba(100, 100, 225, 0.25) 59.375%, rgba(100, 100, 225, 0.25) 66.07143%, rgba(0, 0, 0, 0) 66.07143%, rgba(0, 0, 0, 0) 67.85714%, rgba(100, 100, 225, 0.25) 67.85714%, rgba(100, 100, 225, 0.25) 74.55357%, rgba(0, 0, 0, 0) 74.55357%, rgba(0, 0, 0, 0) 76.33929%, rgba(100, 100, 225, 0.25) 76.33929%, rgba(100, 100, 225, 0.25) 83.03571%, rgba(0, 0, 0, 0) 83.03571%, rgba(0, 0, 0, 0) 84.82143%, rgba(100, 100, 225, 0.25) 84.82143%, rgba(100, 100, 225, 0.25) 91.51786%, rgba(0, 0, 0, 0) 91.51786%, rgba(0, 0, 0, 0) 93.30357%, rgba(100, 100, 225, 0.25) 93.30357%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.69643%, rgba(0, 0, 0, 0) 6.69643%, rgba(0, 0, 0, 0) 8.48214%, rgba(100, 100, 225, 0.25) 8.48214%, rgba(100, 100, 225, 0.25) 15.17857%, rgba(0, 0, 0, 0) 15.17857%, rgba(0, 0, 0, 0) 16.96429%, rgba(100, 100, 225, 0.25) 16.96429%, rgba(100, 100, 225, 0.25) 23.66071%, rgba(0, 0, 0, 0) 23.66071%, rgba(0, 0, 0, 0) 25.44643%, rgba(100, 100, 225, 0.25) 25.44643%, rgba(100, 100, 225, 0.25) 32.14286%, rgba(0, 0, 0, 0) 32.14286%, rgba(0, 0, 0, 0) 33.92857%, rgba(100, 100, 225, 0.25) 33.92857%, rgba(100, 100, 225, 0.25) 40.625%, rgba(0, 0, 0, 0) 40.625%, rgba(0, 0, 0, 0) 42.41071%, rgba(100, 100, 225, 0.25) 42.41071%, rgba(100, 100, 225, 0.25) 49.10714%, rgba(0, 0, 0, 0) 49.10714%, rgba(0, 0, 0, 0) 50.89286%, rgba(100, 100, 225, 0.25) 50.89286%, rgba(100, 100, 225, 0.25) 57.58929%, rgba(0, 0, 0, 0) 57.58929%, rgba(0, 0, 0, 0) 59.375%, rgba(100, 100, 225, 0.25) 59.375%, rgba(100, 100, 225, 0.25) 66.07143%, rgba(0, 0, 0, 0) 66.07143%, rgba(0, 0, 0, 0) 67.85714%, rgba(100, 100, 225, 0.25) 67.85714%, rgba(100, 100, 225, 0.25) 74.55357%, rgba(0, 0, 0, 0) 74.55357%, rgba(0, 0, 0, 0) 76.33929%, rgba(100, 100, 225, 0.25) 76.33929%, rgba(100, 100, 225, 0.25) 83.03571%, rgba(0, 0, 0, 0) 83.03571%, rgba(0, 0, 0, 0) 84.82143%, rgba(100, 100, 225, 0.25) 84.82143%, rgba(100, 100, 225, 0.25) 91.51786%, rgba(0, 0, 0, 0) 91.51786%, rgba(0, 0, 0, 0) 93.30357%, rgba(100, 100, 225, 0.25) 93.30357%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.69643%, rgba(0, 0, 0, 0) 6.69643%, rgba(0, 0, 0, 0) 8.48214%, rgba(100, 100, 225, 0.25) 8.48214%, rgba(100, 100, 225, 0.25) 15.17857%, rgba(0, 0, 0, 0) 15.17857%, rgba(0, 0, 0, 0) 16.96429%, rgba(100, 100, 225, 0.25) 16.96429%, rgba(100, 100, 225, 0.25) 23.66071%, rgba(0, 0, 0, 0) 23.66071%, rgba(0, 0, 0, 0) 25.44643%, rgba(100, 100, 225, 0.25) 25.44643%, rgba(100, 100, 225, 0.25) 32.14286%, rgba(0, 0, 0, 0) 32.14286%, rgba(0, 0, 0, 0) 33.92857%, rgba(100, 100, 225, 0.25) 33.92857%, rgba(100, 100, 225, 0.25) 40.625%, rgba(0, 0, 0, 0) 40.625%, rgba(0, 0, 0, 0) 42.41071%, rgba(100, 100, 225, 0.25) 42.41071%, rgba(100, 100, 225, 0.25) 49.10714%, rgba(0, 0, 0, 0) 49.10714%, rgba(0, 0, 0, 0) 50.89286%, rgba(100, 100, 225, 0.25) 50.89286%, rgba(100, 100, 225, 0.25) 57.58929%, rgba(0, 0, 0, 0) 57.58929%, rgba(0, 0, 0, 0) 59.375%, rgba(100, 100, 225, 0.25) 59.375%, rgba(100, 100, 225, 0.25) 66.07143%, rgba(0, 0, 0, 0) 66.07143%, rgba(0, 0, 0, 0) 67.85714%, rgba(100, 100, 225, 0.25) 67.85714%, rgba(100, 100, 225, 0.25) 74.55357%, rgba(0, 0, 0, 0) 74.55357%, rgba(0, 0, 0, 0) 76.33929%, rgba(100, 100, 225, 0.25) 76.33929%, rgba(100, 100, 225, 0.25) 83.03571%, rgba(0, 0, 0, 0) 83.03571%, rgba(0, 0, 0, 0) 84.82143%, rgba(100, 100, 225, 0.25) 84.82143%, rgba(100, 100, 225, 0.25) 91.51786%, rgba(0, 0, 0, 0) 91.51786%, rgba(0, 0, 0, 0) 93.30357%, rgba(100, 100, 225, 0.25) 93.30357%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
   background-position: left top;
   -webkit-background-origin: content;
   -moz-background-origin: content;
@@ -80,13 +80,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -moz-background-clip: content-box;
   background-clip: content-box;
   margin: 0 auto;
+  padding: 0;
 }
 @media (min-width: 288px) {
   /* line 15, ../sass/_base.scss */
   .container {
-    width: 288px;
-    padding-left: 8px;
-    padding-right: 8px;
+    max-width: 288px;
+    padding-left: 0;
+    padding-right: 0;
     margin-left: auto;
     margin-right: auto;
   }
@@ -100,19 +101,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 @media (min-width: 440px) {
   /* line 15, ../sass/_base.scss */
   .container {
-    width: 440px;
+    max-width: 440px;
   }
 }
 @media (min-width: 668px) {
   /* line 15, ../sass/_base.scss */
   .container {
-    width: 668px;
+    max-width: 668px;
   }
 }
 @media (min-width: 896px) {
   /* line 15, ../sass/_base.scss */
   .container {
-    width: 896px;
+    max-width: 896px;
   }
 }
 
@@ -251,10 +252,8 @@ i {
 
 /* line 66, ../sass/_course.sass */
 .hero-logo {
-  float: left;
   width: 120px;
   height: 114px;
-  margin-left: 10px;
   background-image: url(../images/ippi_taipei.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -262,7 +261,7 @@ i {
   overflow: hidden;
 }
 
-/* line 76, ../sass/_course.sass */
+/* line 75, ../sass/_course.sass */
 .hero-logo-title {
   width: 100%;
   height: 1px;
@@ -270,7 +269,7 @@ i {
   overflow: hidden;
 }
 
-/* line 81, ../sass/_course.sass */
+/* line 80, ../sass/_course.sass */
 .hero-title {
   color: white;
   float: left;
@@ -282,35 +281,35 @@ i {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* line 90, ../sass/_course.sass */
+/* line 89, ../sass/_course.sass */
 .social {
   float: right;
   width: auto;
   margin-right: 10px;
   color: rgba(255, 255, 255, 0.5);
 }
-/* line 95, ../sass/_course.sass */
+/* line 94, ../sass/_course.sass */
 .social i {
   width: 40px;
   display: inline-block;
 }
-/* line 98, ../sass/_course.sass */
+/* line 97, ../sass/_course.sass */
 .social i:hover {
   color: rgba(255, 255, 255, 0.9);
 }
 
-/* line 111, ../sass/_course.sass */
+/* line 110, ../sass/_course.sass */
 nav {
   width: 100%;
   height: 64px;
   background-color: rgba(1, 40, 81, 0.2);
   border-bottom: 2px solid black;
 }
-/* line 116, ../sass/_course.sass */
+/* line 115, ../sass/_course.sass */
 nav ul {
   float: right;
 }
-/* line 118, ../sass/_course.sass */
+/* line 117, ../sass/_course.sass */
 nav li {
   padding: 1.5em 1.2em;
   margin: auto 0 auto -4px;
@@ -322,7 +321,7 @@ nav li {
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 126, ../sass/_course.sass */
+/* line 125, ../sass/_course.sass */
 nav li:hover {
   border-bottom: 2px solid #fece2f;
   background-color: rgba(1, 40, 81, 0.7);
@@ -335,13 +334,13 @@ nav li:hover {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 132, ../sass/_course.sass */
+/* line 131, ../sass/_course.sass */
 nav a {
   color: white;
   height: 100%;
 }
 
-/* line 135, ../sass/_course.sass */
+/* line 134, ../sass/_course.sass */
 .nav-program {
   float: left;
   color: white;
@@ -353,26 +352,26 @@ nav a {
   font-style: italic;
 }
 
-/* line 152, ../sass/_course.sass */
+/* line 151, ../sass/_course.sass */
 .vision {
   max-width: 680px;
   line-height: 1.6;
 }
-/* line 155, ../sass/_course.sass */
+/* line 154, ../sass/_course.sass */
 .vision p {
   text-indent: 32px;
   margin-bottom: 1em;
 }
-/* line 158, ../sass/_course.sass */
+/* line 157, ../sass/_course.sass */
 .vision ol {
   padding-left: 20px;
 }
-/* line 160, ../sass/_course.sass */
+/* line 159, ../sass/_course.sass */
 .vision ol li {
   list-style-type: decimal;
 }
 
-/* line 172, ../sass/_course.sass */
+/* line 171, ../sass/_course.sass */
 .leader {
   color: white;
   position: relative;
@@ -383,7 +382,7 @@ nav a {
   background-color: black;
   background-attachment: fixed;
 }
-/* line 182, ../sass/_course.sass */
+/* line 181, ../sass/_course.sass */
 .leader .leader-filter {
   display: block;
   padding: 4em 0;
@@ -392,24 +391,24 @@ nav a {
   background-color: rgba(50, 50, 50, 0.8);
 }
 
-/* line 188, ../sass/_course.sass */
+/* line 187, ../sass/_course.sass */
 .leader-img {
   float: left;
   width: 142px;
   margin: 8px 32px 0 0;
 }
 
-/* line 192, ../sass/_course.sass */
+/* line 191, ../sass/_course.sass */
 .leader-title {
   font-size: 1.2em;
 }
 
-/* line 194, ../sass/_course.sass */
+/* line 193, ../sass/_course.sass */
 .host {
   font-size: 1.6em;
 }
 
-/* line 206, ../sass/_course.sass */
+/* line 205, ../sass/_course.sass */
 .team-speaker {
   float: left;
   height: 220px;
@@ -420,7 +419,7 @@ nav a {
   box-sizing: border-box;
   position: relative;
 }
-/* line 214, ../sass/_course.sass */
+/* line 213, ../sass/_course.sass */
 .team-speaker h4 {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
@@ -432,7 +431,7 @@ nav a {
   -o-transition: 0.1s;
   transition: 0.1s;
 }
-/* line 220, ../sass/_course.sass */
+/* line 219, ../sass/_course.sass */
 .team-speaker ul {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
@@ -440,12 +439,12 @@ nav a {
   bottom: 25px;
   width: 100%;
 }
-/* line 225, ../sass/_course.sass */
+/* line 224, ../sass/_course.sass */
 .team-speaker ul li {
   line-height: 1.4;
   font-size: 12px;
 }
-/* line 229, ../sass/_course.sass */
+/* line 228, ../sass/_course.sass */
 .team-speaker:hover {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
@@ -460,7 +459,7 @@ nav a {
   -moz-box-shadow: rgba(200, 200, 200, 0.8) 0px 8px 4px -4px;
   box-shadow: rgba(200, 200, 200, 0.8) 0px 8px 4px -4px;
 }
-/* line 234, ../sass/_course.sass */
+/* line 233, ../sass/_course.sass */
 .team-speaker:hover h4 {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
@@ -472,7 +471,7 @@ nav a {
   -o-transition: 0.1s;
   transition: 0.1s;
 }
-/* line 240, ../sass/_course.sass */
+/* line 239, ../sass/_course.sass */
 .team-speaker:hover ul {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
@@ -489,68 +488,68 @@ nav a {
   -o-transition: 0.1s;
   transition: 0.1s;
 }
-/* line 249, ../sass/_course.sass */
+/* line 248, ../sass/_course.sass */
 .team-speaker:last-child {
   margin-bottom: 6em;
 }
 
-/* line 252, ../sass/_course.sass */
+/* line 251, ../sass/_course.sass */
 .profile-1 {
   background-image: url(../images/profile/lee_cut.jpg);
   background-size: cover;
   background-position: top center;
 }
 
-/* line 256, ../sass/_course.sass */
+/* line 255, ../sass/_course.sass */
 .profile-2 {
   background-image: url(../images/profile/lin_cut.jpg);
   background-size: cover;
   background-position: top center;
 }
 
-/* line 260, ../sass/_course.sass */
+/* line 259, ../sass/_course.sass */
 .profile-3 {
   background-image: url(../images/profile/lee_cut2.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-/* line 264, ../sass/_course.sass */
+/* line 263, ../sass/_course.sass */
 .profile-4 {
   background-image: url(../images/profile/lin_cut.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-/* line 268, ../sass/_course.sass */
+/* line 267, ../sass/_course.sass */
 .profile-5 {
   background-image: url(../images/profile/lin_cut.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-/* line 272, ../sass/_course.sass */
+/* line 271, ../sass/_course.sass */
 .profile-6 {
   background-image: url(../images/profile/shih_cut.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-/* line 276, ../sass/_course.sass */
+/* line 275, ../sass/_course.sass */
 .profile-7 {
   background-image: url(../images/profile/lin_cut.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-/* line 280, ../sass/_course.sass */
+/* line 279, ../sass/_course.sass */
 .profile-8 {
   background-image: url(../images/profile/lee_cut2.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-/* line 300, ../sass/_course.sass */
+/* line 299, ../sass/_course.sass */
 .h2-program {
   clear: both;
   font-size: 2em;
@@ -561,14 +560,14 @@ nav a {
   background-color: rgba(3, 46, 91, 0.9);
 }
 
-/* line 308, ../sass/_course.sass */
+/* line 307, ../sass/_course.sass */
 .lesson {
   max-width: 620px;
   padding-bottom: 4em;
   clear: both;
 }
 
-/* line 312, ../sass/_course.sass */
+/* line 311, ../sass/_course.sass */
 .lesson-series {
   font-family: "Times New Roman", "Georgia", Times, serif;
   font-style: italic;
@@ -578,7 +577,7 @@ nav a {
   clear: both;
 }
 
-/* line 320, ../sass/_course.sass */
+/* line 319, ../sass/_course.sass */
 .lesson-name {
   font-family: "Times New Roman", "Georgia", Times, "Heiti TC", serif;
   font-size: 1.2em;
@@ -586,7 +585,7 @@ nav a {
   clear: both;
 }
 
-/* line 326, ../sass/_course.sass */
+/* line 325, ../sass/_course.sass */
 .lesson-content {
   font-size: 1em;
   margin-bottom: 24px;
@@ -594,18 +593,18 @@ nav a {
   color: #3e3e3e;
 }
 
-/* line 331, ../sass/_course.sass */
+/* line 330, ../sass/_course.sass */
 .lesson-date {
   margin-bottom: 8px;
   color: #3e3e3e;
 }
 
-/* line 334, ../sass/_course.sass */
+/* line 333, ../sass/_course.sass */
 .lesson-price {
   color: #3e3e3e;
 }
 
-/* line 337, ../sass/_course.sass */
+/* line 336, ../sass/_course.sass */
 .download {
   margin: 1em 0 4em 0;
   text-align: center;
@@ -625,7 +624,7 @@ nav a {
   -moz-box-shadow: rgba(255, 255, 255, 0.3) 0px 2px 2px inset;
   box-shadow: rgba(255, 255, 255, 0.3) 0px 2px 2px inset;
 }
-/* line 349, ../sass/_course.sass */
+/* line 348, ../sass/_course.sass */
 .download:hover {
   transition: 0.1s;
   -webkit-box-shadow: rgba(255, 255, 255, 0.2) 0px -3px 3px inset;
@@ -638,7 +637,7 @@ nav a {
   transform: scale(1.01);
 }
 
-/* line 367, ../sass/_course.sass */
+/* line 366, ../sass/_course.sass */
 .register {
   line-height: 1.4;
   color: white;
@@ -651,7 +650,7 @@ nav a {
   background-attachment: fixed;
   clear: both;
 }
-/* line 378, ../sass/_course.sass */
+/* line 377, ../sass/_course.sass */
 .register .register-filter {
   display: block;
   padding: 0em 0 4em 0;
@@ -660,7 +659,7 @@ nav a {
   background-color: rgba(20, 20, 20, 0.4);
 }
 
-/* line 397, ../sass/_course.sass */
+/* line 396, ../sass/_course.sass */
 footer {
   color: white;
   background-color: #032e5b;
@@ -669,7 +668,7 @@ footer {
   position: relative;
 }
 
-/* line 403, ../sass/_course.sass */
+/* line 402, ../sass/_course.sass */
 .footer-logo {
   float: right;
   width: 120px;
@@ -682,7 +681,7 @@ footer {
   overflow: hidden;
 }
 
-/* line 413, ../sass/_course.sass */
+/* line 412, ../sass/_course.sass */
 .footer-logo-title {
   width: 100%;
   height: 1px;
@@ -690,7 +689,7 @@ footer {
   overflow: hidden;
 }
 
-/* line 418, ../sass/_course.sass */
+/* line 417, ../sass/_course.sass */
 .footer-contact {
   float: right;
   width: 320px;
@@ -698,7 +697,7 @@ footer {
   margin: 0 0 0 20px;
 }
 
-/* line 423, ../sass/_course.sass */
+/* line 422, ../sass/_course.sass */
 .sticky {
   position: absolute;
   bottom: 0;
@@ -707,32 +706,32 @@ footer {
   z-index: 20;
 }
 
-/* line 429, ../sass/_course.sass */
+/* line 428, ../sass/_course.sass */
 .germany-black, .germany-yellow, .germany-red {
   float: left;
   width: 33.33333%;
   height: 3px;
 }
 
-/* line 434, ../sass/_course.sass */
+/* line 433, ../sass/_course.sass */
 .germany-black {
   background-color: rgba(0, 0, 0, 0.7);
   border-top: 2px solid #3c3c3c;
 }
 
-/* line 437, ../sass/_course.sass */
+/* line 436, ../sass/_course.sass */
 .germany-red {
   background-color: #8f050e;
   border-top: 2px solid #dc0a17;
 }
 
-/* line 440, ../sass/_course.sass */
+/* line 439, ../sass/_course.sass */
 .germany-yellow {
   background-color: #9e8a1b;
   border-top: 2px solid #fece2f;
 }
 
-/* line 444, ../sass/_course.sass */
+/* line 443, ../sass/_course.sass */
 #map {
   display: none;
   position: absolute;
