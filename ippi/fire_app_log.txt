@@ -2972,3 +2972,7 @@ Load paths:
 2014-08-26 11:20:52 overwrite stylesheets/cover.css 
 2014-08-26 11:20:52 identical stylesheets/ie.css 
 2014-08-26 11:20:53 identical stylesheets/screen.css 
+2014-08-26 11:23:04 identical stylesheets/course.css 
+2014-08-26 11:23:04 overwrite stylesheets/cover.css 
+2014-08-26 11:23:04 identical stylesheets/ie.css 
+2014-08-26 11:23:04 identical stylesheets/screen.css 
